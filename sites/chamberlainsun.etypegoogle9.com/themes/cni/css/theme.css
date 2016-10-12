@@ -1263,6 +1263,7 @@ textarea, select, input[type="date"], input[type="datetime"], input[type="dateti
 #block-advpoll-advpoll-recent h2.title {
     font-size: 1em;
     line-height: 1.3em;
+    text-transform: none;
 }
 
 #block-advpoll-advpoll-recent .submitted {
