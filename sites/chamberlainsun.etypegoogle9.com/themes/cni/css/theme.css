@@ -1245,9 +1245,8 @@ textarea, select, input[type="date"], input[type="datetime"], input[type="dateti
     text-align: center;
 }
 
-/* OTHER
+/* OWN LOCAL
 --------------------------------------------------------------------------*/
-/* own local */
 #block-etype-own-local .block-inner {
     padding: 0;
     margin: 0;
@@ -1259,7 +1258,8 @@ textarea, select, input[type="date"], input[type="datetime"], input[type="dateti
     padding: 0;
 }
 
-/* advanced poll block */
+/* ADVANCED POLL
+--------------------------------------------------------------------------*/
 #block-advpoll-advpoll-recent h2.title {
     font-size: 1em;
     line-height: 1.3em;
