@@ -1485,6 +1485,23 @@ textarea, select, input[type="date"], input[type="datetime"], input[type="dateti
     top: 308px
 }
 
+/* SIMPLE ADS
+--------------------------------------------------------------------------*/
+
+#main-content .block-simpleads .block-inner {
+    padding: 0;
+    margin: 0;
+    border-style: none;
+    border-width: 0;
+    box-shadow: none;
+}
+
+.region-main-menu .block-simpleads, .region-main-menu-second-level .block-simpleads {
+    text-align: center;
+}
+
+/* OTHER
+--------------------------------------------------------------------------*/
 /* own local */
 #block-etype-own-local .block-inner {
     padding: 0;
