@@ -1241,8 +1241,14 @@ textarea, select, input[type="date"], input[type="datetime"], input[type="dateti
     box-shadow: none;
 }
 
-.region-main-menu .block-simpleads, .region-main-menu-second-level .block-simpleads {
+.region-main-menu .block-simpleads {
     text-align: center;
+    margin-bottom: 1em;
+}
+
+.region-main-menu-second-level .block-simpleads {
+    text-align: center;
+    margin-top: 1em;
 }
 
 /* OWN LOCAL
