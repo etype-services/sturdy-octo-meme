@@ -103,11 +103,11 @@
           <div class="postscript-wrapper-inner-inner">
             <section id="postscript">
               <div
-                class="grid_3"><?php print render($page['postscript_1']); ?></div>
+                class="grid_4"><?php print render($page['postscript_1']); ?></div>
               <div
-                class="grid_3"><?php print render($page['postscript_2']); ?></div>
+                class="grid_4"><?php print render($page['postscript_2']); ?></div>
               <div
-                class="grid_3"><?php print render($page['postscript_3']); ?></div>
+                class="grid_4"><?php print render($page['postscript_3']); ?></div>
             </section>
           </div>
         </div>
