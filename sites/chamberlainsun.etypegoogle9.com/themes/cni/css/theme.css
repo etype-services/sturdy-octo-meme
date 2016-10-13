@@ -1243,12 +1243,12 @@ textarea, select, input[type="date"], input[type="datetime"], input[type="dateti
 
 .region-main-menu .block-simpleads {
     text-align: center;
-    margin-bottom: 1em;
+    margin-bottom: 20px;
 }
 
 .region-main-menu-second-level .block-simpleads {
     text-align: center;
-    margin-top: 1em;
+    margin-top: 20px;
 }
 
 /* OWN LOCAL
@@ -1279,4 +1279,10 @@ textarea, select, input[type="date"], input[type="datetime"], input[type="dateti
 
 #block-advpoll-advpoll-recent .content {
     padding: 0;
+}
+
+#block-advpoll-advpoll-recent .poll-message {
+    font: 0.9em/1em 'Lato';
+    color: #000;
+    margin: 1em 0;
 }
