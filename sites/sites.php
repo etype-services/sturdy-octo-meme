@@ -9,3 +9,8 @@ $sites['southreporter-drupal.etypegoogle9.com'] = 'southreporter.etypegoogle9.co
 $sites['southreporter.com'] = 'southreporter.etypegoogle9.com';
 $sites['www.southreporter.com'] = 'southreporter.etypegoogle9.com';
 
+$sites['gatesvillemessenger.etypegoogle9.com'] = 'gatesvillemessenger.etypegoogle9.com';
+$sites['gatesvillemessenger-drupal.etypegoogle9.com'] = 'gatesvillemessenger.etypegoogle9.com';
+$sites['gatesvillemessenger.com'] = 'gatesvillemessenger.etypegoogle9.com';
+$sites['www.gatesvillemessenger.com'] = 'gatesvillemessenger.etypegoogle9.com';
+
