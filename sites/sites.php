@@ -27,3 +27,8 @@ $sites['columbusnews-report.etypegoogle9.com'] = 'columbusnews-report.etypegoogl
 $sites['columbusnews-report-drupal.etypegoogle9.com'] = 'columbusnews-report.etypegoogle9.com';
 $sites['columbusnews-report.com'] = 'columbusnews-report.etypegoogle9.com';
 $sites['www.columbusnews-report.com'] = 'columbusnews-report.etypegoogle9.com';
+
+$sites['lincolnsentinel.etypegoogle9.com'] = 'lincolnsentinel.etypegoogle9.com';
+$sites['lincolnsentinel-drupal.etypegoogle9.com'] = 'lincolnsentinel.etypegoogle9.com';
+$sites['lincolnsentinel.com'] = 'lincolnsentinel.etypegoogle9.com';
+$sites['www.lincolnsentinel.com'] = 'lincolnsentinel.etypegoogle9.com';
