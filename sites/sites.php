@@ -32,3 +32,8 @@ $sites['lincolnsentinel.etypegoogle9.com'] = 'lincolnsentinel.etypegoogle9.com';
 $sites['lincolnsentinel-drupal.etypegoogle9.com'] = 'lincolnsentinel.etypegoogle9.com';
 $sites['lincolnsentinel.com'] = 'lincolnsentinel.etypegoogle9.com';
 $sites['www.lincolnsentinel.com'] = 'lincolnsentinel.etypegoogle9.com';
+
+$sites['chapmannewstimes.etypegoogle9.com'] = 'chapmannewstimes.etypegoogle9.com';
+$sites['chapmannewstimes-drupal.etypegoogle9.com'] = 'chapmannewstimes.etypegoogle9.com';
+$sites['chapmannewstimes.com'] = 'chapmannewstimes.etypegoogle9.com';
+$sites['www.chapmannewstimes.com'] = 'chapmannewstimes.etypegoogle9.com';
