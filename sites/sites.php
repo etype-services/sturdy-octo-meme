@@ -37,3 +37,8 @@ $sites['chapmannewstimes.etypegoogle9.com'] = 'chapmannewstimes.etypegoogle9.com
 $sites['chapmannewstimes-drupal.etypegoogle9.com'] = 'chapmannewstimes.etypegoogle9.com';
 $sites['chapmannewstimes.com'] = 'chapmannewstimes.etypegoogle9.com';
 $sites['www.chapmannewstimes.com'] = 'chapmannewstimes.etypegoogle9.com';
+
+$sites['anewspaper.etypegoogle9.com'] = 'anewspaper.etypegoogle9.com';
+$sites['anewspaper-drupal.etypegoogle9.com'] = 'anewspaper.etypegoogle9.com';
+$sites['anewspaper.net'] = 'anewspaper.etypegoogle9.com';
+$sites['www.anewspaper.net'] = 'anewspaper.etypegoogle9.com';
