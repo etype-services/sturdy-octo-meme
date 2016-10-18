@@ -46,3 +46,8 @@ $sites['thehonker.etypegoogle9.com'] = 'thehonker.etypegoogle9.com';
 $sites['thehonker-drupal.etypegoogle9.com'] = 'thehonker.etypegoogle9.com';
 $sites['thehonker.com'] = 'thehonker.etypegoogle9.com';
 $sites['www.thehonker.com'] = 'thehonker.etypegoogle9.com';
+
+$sites['bannerpresspaper.etypegoogle9.com'] = 'bannerpresspaper.etypegoogle9.com';
+$sites['bannerpresspaper-drupal.etypegoogle9.com'] = 'bannerpresspaper.etypegoogle9.com';
+$sites['bannerpresspaper.com'] = 'bannerpresspaper.etypegoogle9.com';
+$sites['www.bannerpresspaper.com'] = 'bannerpresspaper.etypegoogle9.com';
