@@ -51,3 +51,8 @@ $sites['bannerpresspaper.etypegoogle9.com'] = 'bannerpresspaper.etypegoogle9.com
 $sites['bannerpresspaper-drupal.etypegoogle9.com'] = 'bannerpresspaper.etypegoogle9.com';
 $sites['bannerpresspaper.com'] = 'bannerpresspaper.etypegoogle9.com';
 $sites['www.bannerpresspaper.com'] = 'bannerpresspaper.etypegoogle9.com';
+
+$sites['covebanner.etypegoogle9.com'] = 'covebanner.etypegoogle9.com';
+$sites['covebanner-drupal.etypegoogle9.com'] = 'covebanner.etypegoogle9.com';
+$sites['covebanner.com'] = 'covebanner.etypegoogle9.com';
+$sites['www.covebanner.com'] = 'covebanner.etypegoogle9.com';
