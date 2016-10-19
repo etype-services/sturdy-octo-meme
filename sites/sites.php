@@ -56,3 +56,8 @@ $sites['covebanner.etypegoogle9.com'] = 'covebanner.etypegoogle9.com';
 $sites['covebanner-drupal.etypegoogle9.com'] = 'covebanner.etypegoogle9.com';
 $sites['covebanner.com'] = 'covebanner.etypegoogle9.com';
 $sites['www.covebanner.com'] = 'covebanner.etypegoogle9.com';
+
+$sites['starheraldnews.etypegoogle9.com'] = 'starheraldnews.etypegoogle9.com';
+$sites['starheraldnews-drupal.etypegoogle9.com'] = 'starheraldnews.etypegoogle9.com';
+$sites['starheraldnews.com'] = 'starheraldnews.etypegoogle9.com';
+$sites['www.starheraldnews.com'] = 'starheraldnews.etypegoogle9.com';
