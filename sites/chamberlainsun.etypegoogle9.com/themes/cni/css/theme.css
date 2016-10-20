@@ -1305,3 +1305,19 @@ textarea, select, input[type="date"], input[type="datetime"], input[type="dateti
     color: #000;
     margin: 1em 0;
 }
+
+/* SDNA network ads 
+--------------------------------------------------------------------------*/
+
+#block-block-37 {
+	margin-top:20px;
+	text-align:center;
+}
+
+#block-block-38 .block-inner {
+    border-style: none;
+    border-width: 0;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
