@@ -61,3 +61,18 @@ $sites['starheraldnews.etypegoogle9.com'] = 'starheraldnews.etypegoogle9.com';
 $sites['starheraldnews-drupal.etypegoogle9.com'] = 'starheraldnews.etypegoogle9.com';
 $sites['starheraldnews.com'] = 'starheraldnews.etypegoogle9.com';
 $sites['www.starheraldnews.com'] = 'starheraldnews.etypegoogle9.com';
+
+$sites['canton-times.etypegoogle9.com'] = 'canton-times.etypegoogle9.com';
+$sites['canton-times-drupal.etypegoogle9.com'] = 'canton-times.etypegoogle9.com';
+$sites['canton-times.com'] = 'canton-times.etypegoogle9.com';
+$sites['www.canton-times.com'] = 'canton-times.etypegoogle9.com';
+
+$sites['colfaxchronicle.etypegoogle9.com'] = 'colfaxchronicle.etypegoogle9.com';
+$sites['colfaxchronicle-drupal.etypegoogle9.com'] = 'colfaxchronicle.etypegoogle9.com';
+$sites['colfaxchronicle.com'] = 'colfaxchronicle.etypegoogle9.com';
+$sites['www.colfaxchronicle.com'] = 'colfaxchronicle.etypegoogle9.com';
+
+$sites['eagleprint.etypegoogle9.com'] = 'eagleprint.etypegoogle9.com';
+$sites['eagleprint-drupal.etypegoogle9.com'] = 'eagleprint.etypegoogle9.com';
+$sites['eagleprint.net'] = 'eagleprint.etypegoogle9.com';
+$sites['www.eagleprint.net'] = 'eagleprint.etypegoogle9.com';
