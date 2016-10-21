@@ -2,12 +2,12 @@
 .site-logo {
     width: 100%;
     margin: 0 auto;
-    max-width: 670px;
+    max-width: 748px;
 }
 
 .site-logo img {
     width: 100%;
-    max-width: 670px;
+    max-width: 748px;
 }
 
 /* SIMPLE ADS
@@ -29,6 +29,11 @@ article.node-webform .node-content-wrapper h1.title {
 /* wide desktop browsers */
 @media only screen and (min-width: 959px) {
 
+    /* main menu */
+    #block-superfish-1 .content {
+        width: 785px;
+    }
+
     /* dfp ads */
     #block-dfp-acadia-banner2 {
         width: 468px;
@@ -39,6 +44,12 @@ article.node-webform .node-content-wrapper h1.title {
 
 /* desktop browsers */
 @media only screen and (min-width: 768px) and (max-width: 958px) {
+
+    /* main menu */
+    #block-superfish-1 .content {
+        width: 635px;
+        font-size: 0.8em;
+    }
 
     /* dfp ads */
     #block-dfp-acadia-banner2 {
