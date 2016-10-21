@@ -11,10 +11,10 @@ $sites['www.southreporter.com'] = 'southreporter.etypegoogle9.com';
 $sites['ainsworthnews.etypegoogle9.com'] = 'ainsworthnews.etypegoogle9.com';
 $sites['ainsworthnews.com'] = 'ainsworthnews.etypegoogle9.com';
 $sites['www.ainsworthnews.com'] = 'ainsworthnews.etypegoogle9.com';
-$sites['valentinenews.com'] = 'valentinenews.etypegoogle9.com';
-$sites['www.valentinenews.com'] = 'valentinenews.etypegoogle9.com';
-$sites['gregorynews.com'] = 'gregorynews.etypegoogle9.com';
-$sites['www.gregorynews.com'] = 'gregorynews.etypegoogle9.com';
+$sites['valentinenews.com'] = 'ainsworthnews.etypegoogle9.com';
+$sites['www.valentinenews.com'] = 'ainsworthnews.etypegoogle9.com';
+$sites['gregorynews.com'] = 'ainsworthnews.etypegoogle9.com';
+$sites['www.gregorynews.com'] = 'ainsworthnews.etypegoogle9.com';
 
 $sites['deweycountyrecord.etypegoogle9.com'] = 'deweycountyrecord.etypegoogle9.com';
 $sites['deweycountyrecord.com'] = 'deweycountyrecord.etypegoogle9.com';
