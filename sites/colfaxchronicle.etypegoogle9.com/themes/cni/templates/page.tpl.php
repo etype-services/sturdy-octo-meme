@@ -84,11 +84,6 @@
                 <ul
                   class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
             </div>
-
-            <aside class="sidebar second-sidebar grid_4 clearfix">
-              <?php print render($page['sidebar_first']); ?>
-              <?php print render($page['sidebar_second']); ?>
-            </aside>
           </div>
 
         </section>

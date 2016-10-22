@@ -10,6 +10,11 @@
     max-width: 680px;
 }
 
+.front h1.title {
+    display: none;
+    visibility: hidden;
+}
+
 /* SIMPLE ADS
 --------------------------------------------------------------------------*/
 
@@ -20,6 +25,7 @@
 /* hide info on webforms */
 article.node-webform .node-content-wrapper .submitted span {
     display: none;
+    visibility: hidden;
 }
 
 article.node-webform .node-content-wrapper h1.title {
@@ -40,6 +46,10 @@ article.node-webform .node-content-wrapper h1.title {
         margin: 0 auto 0 70px;
     }
 
+    .container_12 .grid_8 {
+        width: 960px;
+    }
+
 }
 
 /* desktop browsers */
@@ -48,6 +58,7 @@ article.node-webform .node-content-wrapper h1.title {
     /* main menu */
     #block-superfish-1 .content {
         width: 725px;
+        font-size: 0.8em;
     }
 
 
@@ -55,6 +66,10 @@ article.node-webform .node-content-wrapper h1.title {
     #block-dfp-acadia-banner2 {
         width: 468px;
         margin: 0;
+    }
+
+    .container_12 .grid_8 {
+        width: 768px;
     }
 
 }
@@ -69,6 +84,12 @@ article.node-webform .node-content-wrapper h1.title {
 
     /* Hide larger DFP ads on non full-size browsers */
     #block-dfp-acadia-leaderboard, #block-dfp-acadia-banner2 {
+        display: none;
+        visibility: hidden;
+    }
+
+    /* Hide leaderboard weather widget */
+    #block-block-1 {
         display: none;
         visibility: hidden;
     }
