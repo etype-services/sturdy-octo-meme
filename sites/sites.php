@@ -61,16 +61,29 @@ $sites['starheraldnews.com'] = 'starheraldnews.etypegoogle9.com';
 $sites['www.starheraldnews.com'] = 'starheraldnews.etypegoogle9.com';
 
 $sites['canton-times.etypegoogle9.com'] = 'canton-times.etypegoogle9.com';
-$sites['canton-times-drupal.etypegoogle9.com'] = 'canton-times.etypegoogle9.com';
 $sites['canton-times.com'] = 'canton-times.etypegoogle9.com';
 $sites['www.canton-times.com'] = 'canton-times.etypegoogle9.com';
 
 $sites['colfaxchronicle.etypegoogle9.com'] = 'colfaxchronicle.etypegoogle9.com';
-$sites['colfaxchronicle-drupal.etypegoogle9.com'] = 'colfaxchronicle.etypegoogle9.com';
 $sites['colfaxchronicle.com'] = 'colfaxchronicle.etypegoogle9.com';
 $sites['www.colfaxchronicle.com'] = 'colfaxchronicle.etypegoogle9.com';
 
 $sites['eagleprint.etypegoogle9.com'] = 'eagleprint.etypegoogle9.com';
-$sites['eagleprint-drupal.etypegoogle9.com'] = 'eagleprint.etypegoogle9.com';
 $sites['eagleprint.net'] = 'eagleprint.etypegoogle9.com';
 $sites['www.eagleprint.net'] = 'eagleprint.etypegoogle9.com';
+
+$sites['frontlinenewspaper.etypegoogle9.com'] = 'frontlinenewspaper.etypegoogle9.com';
+$sites['frontlinenewspaper.com'] = 'frontlinenewspaper.etypegoogle9.com';
+$sites['www.frontlinenewspaper.com'] = 'frontlinenewspaper.etypegoogle9.com';
+
+$sites['gspublishing.etypegoogle9.com'] = 'gspublishing.etypegoogle9.com';
+$sites['gspublishing.com'] = 'gspublishing.etypegoogle9.com';
+$sites['www.gspublishing.com'] = 'gspublishing.etypegoogle9.com';
+
+$sites['homerindex.etypegoogle9.com'] = 'homerindex.etypegoogle9.com';
+$sites['homerindex.com'] = 'homerindex.etypegoogle9.com';
+$sites['www.homerindex.com'] = 'homerindex.etypegoogle9.com';
+
+$sites['sulphurtimes.etypegoogle9.com'] = 'sulphurtimes.etypegoogle9.com';
+$sites['sulphurtimes.com'] = 'sulphurtimes.etypegoogle9.com';
+$sites['www.sulphurtimes.com'] = 'sulphurtimes.etypegoogle9.com';
