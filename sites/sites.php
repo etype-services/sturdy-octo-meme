@@ -77,8 +77,8 @@ $sites['frontlinenewspaper.com'] = 'frontlinenewspaper.etypegoogle9.com';
 $sites['www.frontlinenewspaper.com'] = 'frontlinenewspaper.etypegoogle9.com';
 
 $sites['gspublishing.etypegoogle9.com'] = 'gspublishing.etypegoogle9.com';
-$sites['gspublishing.com'] = 'gspublishing.etypegoogle9.com';
-$sites['www.gspublishing.com'] = 'gspublishing.etypegoogle9.com';
+$sites['gspublishing.net'] = 'gspublishing.etypegoogle9.com';
+$sites['www.gspublishing.net'] = 'gspublishing.etypegoogle9.com';
 
 $sites['homerindex.etypegoogle9.com'] = 'homerindex.etypegoogle9.com';
 $sites['homerindex.com'] = 'homerindex.etypegoogle9.com';
