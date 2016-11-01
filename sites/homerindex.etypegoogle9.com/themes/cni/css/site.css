@@ -10,6 +10,11 @@
     max-width: 1290px;
 }
 
+.front h1.title {
+    display: none;
+    visibility: hidden;
+}
+
 /* main-menu background-color */
 #block-superfish-1 {
     background-color: #094385;
