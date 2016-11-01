@@ -40,12 +40,6 @@ article.node-webform .node-content-wrapper h1.title {
         width: 887px;
     }
 
-    /* dfp ads */
-    #block-dfp-acadia-banner2 {
-        width: 468px;
-        margin: 0 auto 0 70px;
-    }
-
     .container_12 .grid_8 {
         width: 960px;
     }
@@ -61,13 +55,6 @@ article.node-webform .node-content-wrapper h1.title {
         font-size: 0.8em;
     }
 
-
-    /* dfp ads */
-    #block-dfp-acadia-banner2 {
-        width: 468px;
-        margin: 0;
-    }
-
     .container_12 .grid_8 {
         width: 768px;
     }
@@ -76,32 +63,12 @@ article.node-webform .node-content-wrapper h1.title {
 
 @media only screen and (max-width: 767px) {
 
-    /* main menu */
-    #block-superfish-1 .content {
-        width: 650px;
-        font-size: 0.8em;
-    }
-
     /* Hide larger DFP ads on non full-size browsers */
-    #block-dfp-acadia-leaderboard, #block-dfp-acadia-banner2 {
-        display: none;
-        visibility: hidden;
-    }
-
-    /* Hide leaderboard weather widget */
-    #block-block-1 {
-        display: none;
-        visibility: hidden;
-    }
 
 }
 
 @media only screen and (min-width: 768px) {
 
     /* Hide larger DFP ads on non full-size browsers */
-    #block-dfp-acadia-leaderboard, #block-dfp-acadia-banner2 {
-        display: block;
-        visibility: visible;
-    }
 
 }

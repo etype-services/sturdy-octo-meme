@@ -29,6 +29,7 @@
 /* hide info on webforms */
 article.node-webform .node-content-wrapper .submitted span {
     display: none;
+    visibility: hidden;
 }
 
 article.node-webform .node-content-wrapper h1.title {
@@ -43,7 +44,9 @@ article.node-webform .node-content-wrapper h1.title {
         width: 979px;
     }
 
-    /* dfp ads */
+    .container_12 .grid_8 {
+        width: 960px;
+    }
 
 }
 
@@ -56,7 +59,9 @@ article.node-webform .node-content-wrapper h1.title {
         font-size: 0.8em;
     }
 
-    /* dfp ads */
+    .container_12 .grid_8 {
+        width: 768px;
+    }
 
 }
 
