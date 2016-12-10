@@ -2,21 +2,21 @@
 .site-logo {
     width: 100%;
     margin: 0 auto;
-    max-width: 670px;
+    max-width: 471px;
 }
 
 .site-logo img {
     width: 100%;
-    max-width: 670px;
+    max-width: 471px;
 }
 
 /* main-menu background-color */
 #block-superfish-1 {
-    background-color: red;
+    background-color: #000000;
 }
 
 .sf-menu.sf-style-space li, .sf-menu.sf-style-space li li, .sf-menu.sf-style-space li li li, .sf-menu.sf-style-space.sf-navbar {
-    background: red;
+    background: #000000;
 }
 
 /* SIMPLE ADS
