@@ -87,3 +87,11 @@ $sites['www.homerindex.com'] = 'homerindex.etypegoogle9.com';
 $sites['sulphurtimes.etypegoogle9.com'] = 'sulphurtimes.etypegoogle9.com';
 $sites['sulphurtimes.com'] = 'sulphurtimes.etypegoogle9.com';
 $sites['www.sulphurtimes.com'] = 'sulphurtimes.etypegoogle9.com';
+
+$sites['imperialrepublican.etypegoogle9.com'] = 'imperialrepublican.etypegoogle9.com';
+$sites['imperialrepublican.com'] = 'imperialrepublican.etypegoogle9.com';
+$sites['www.imperialrepublican.com'] = 'imperialrepublican.etypegoogle9.com';
+
+$sites['holyokeenterpris.etypegoogle9.com'] = 'holyokeenterpris.etypegoogle9.com';
+$sites['holyokeenterpris.com'] = 'holyokeenterpris.etypegoogle9.com';
+$sites['www.holyokeenterpris.com'] = 'holyokeenterpris.etypegoogle9.com';
