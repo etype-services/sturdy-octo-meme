@@ -92,6 +92,14 @@ $sites['imperialrepublican.etypegoogle9.com'] = 'imperialrepublican.etypegoogle9
 $sites['imperialrepublican.com'] = 'imperialrepublican.etypegoogle9.com';
 $sites['www.imperialrepublican.com'] = 'imperialrepublican.etypegoogle9.com';
 
-$sites['holyokeenterpris.etypegoogle9.com'] = 'holyokeenterpris.etypegoogle9.com';
-$sites['holyokeenterpris.com'] = 'holyokeenterpris.etypegoogle9.com';
-$sites['www.holyokeenterpris.com'] = 'holyokeenterpris.etypegoogle9.com';
+$sites['holyokeenterprise.etypegoogle9.com'] = 'holyokeenterprise.etypegoogle9.com';
+$sites['holyokeenterprise.com'] = 'holyokeenterprise.etypegoogle9.com';
+$sites['www.holyokeenterprise.com'] = 'holyokeenterprise.etypegoogle9.com';
+
+$sites['granttribune.etypegoogle9.com'] = 'granttribune.etypegoogle9.com';
+$sites['granttribune.com'] = 'granttribune.etypegoogle9.com';
+$sites['www.granttribune.com'] = 'granttribune.etypegoogle9.com';
+
+$sites['waunetabreeze.etypegoogle9.com'] = 'waunetabreeze.etypegoogle9.com';
+$sites['waunetabreeze.com'] = 'waunetabreeze.etypegoogle9.com';
+$sites['www.waunetabreeze.com'] = 'waunetabreeze.etypegoogle9.com';
