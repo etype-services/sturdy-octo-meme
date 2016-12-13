@@ -239,7 +239,7 @@ h3.site-slogan {
 }
 
 .preface-wrapper .block-inner h3.title {
-    font-size: 2em;
+    font-size: 1.6em;
 }
 
 .preface-wrapper .block-inner .views-field-title h3 {
@@ -308,11 +308,6 @@ article .field-image {
     font-size: 0.9em;
 }
 
-#postscript .grid_4 {
-    width: 28%;
-    margin-left: 2em;
-}
-
 #postscript a {
     color: #dddddd;
     font-weight: normal;
@@ -320,10 +315,10 @@ article .field-image {
 }
 
 .postscript-wrapper {
-    padding: 20px 0;
-    margin: 10px -10px 0;
+    padding: 20px 0 0;
+    margin: 0;
     background: url(../images/postscript-bg.png);
-    border-top: 20px solid #252525;
+    border-top: 3px solid #252525;
 }
 
 /* override widths for .grid_3 in footer */
@@ -392,11 +387,11 @@ article .field-image {
 
 /* menus in footer */
 #postscript .block-menu-block ul.menu li {
-    float: none;
+    float: left;
     padding-top: 0;
-    padding-right: 0;
+    padding-right: 10px;
     padding-bottom: 0;
-    padding-left: 10px;
+    padding-left: 0;
     margin-top: 0;
     margin-right: 0;
     margin-bottom: 0;
@@ -1325,4 +1320,22 @@ article.node-webform .node-content-wrapper .submitted span {
 
 article.node-webform .node-content-wrapper h1.title {
     margin-bottom: 0;
+}
+
+/* Scoreboard ticker */
+#block-views-ticker-block .content {
+    background: none;
+}
+
+#block-views-ticker-block .liScroll-container .mask {
+    top: 0;
+}
+
+#block-views-ticker-block .liScroll-container {
+    width: 100%;
+}
+
+.preface-wrapper #block-views-ticker-block .content {
+    margin-top :0;
+    padding: 0;
 }
