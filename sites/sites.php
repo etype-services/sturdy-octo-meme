@@ -103,3 +103,7 @@ $sites['www.granttribune.com'] = 'granttribune.etypegoogle9.com';
 $sites['waunetabreeze.etypegoogle9.com'] = 'waunetabreeze.etypegoogle9.com';
 $sites['waunetabreeze.com'] = 'waunetabreeze.etypegoogle9.com';
 $sites['www.waunetabreeze.com'] = 'waunetabreeze.etypegoogle9.com';
+
+$sites['southarkansassun.etypegoogle9.com'] = 'southarkansassun.etypegoogle9.com';
+$sites['southarkansassun.com'] = 'southarkansassun.etypegoogle9.com';
+$sites['www.southarkansassun.com'] = 'southarkansassun.etypegoogle9.com';
