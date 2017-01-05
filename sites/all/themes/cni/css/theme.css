@@ -345,7 +345,7 @@ article .field-image {
     color: #999999;
 }
 
-/* override default styles for user menu in footer */
+/* override default styles for user menu in postscript */
 #postscript .block-menu-block ul.menu li {
     padding-left: 0 !important;
     list-style-type: none !important;
@@ -369,18 +369,18 @@ article .field-image {
     margin-left: 1.7em;
 }
 
-/* title in first column of footer */
+/* title in first column of postscript */
 .region-postscript-1 h3.title {
     margin-left: 0;
 }
 
-/* hide Show Menu link in footer */
+/* hide Show Menu link in postscript */
 .region-postscript-2 #block-menu-block-2 .menu li.first {
     display: none;
     visibility: hidden;
 }
 
-/* menus in footer */
+/* menus in postscript */
 #postscript .block-menu-block ul.menu li {
     float: left;
     padding-top: 0;
