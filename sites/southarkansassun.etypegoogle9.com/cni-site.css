@@ -19,6 +19,32 @@
     background: #000000;
 }
 
+/* User Menu */
+#block-system-user-menu {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+#block-system-user-menu {
+    background-color: #ffffff;
+    width: 100%;
+    height: 27px;
+}
+
+#block-system-user-menu ul.menu li {
+    height: 27px;
+}
+
+#block-system-user-menu ul.menu li a {
+    font-size: 0.8em;
+}
+
+#block-system-user-menu ul.menu li a {
+    color: #333333;
+    height: 27px;
+    line-height: 27px;
+}
+
 /* SIMPLE ADS
 --------------------------------------------------------------------------*/
 
