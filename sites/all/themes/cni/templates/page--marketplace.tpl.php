@@ -77,7 +77,6 @@
                 </div>
             </div>
         <?php endif; ?>
-        <?php endif; ?>
         <?php if ($page['footer']): ?>
             <?php print $page['footer']; ?>
         <?php endif; ?>
