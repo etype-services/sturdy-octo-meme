@@ -27,6 +27,10 @@
     border-bottom: 1px solid black;
 }
 
+#block-system-user-menu .content {
+    margin: 0 auto;
+}
+
 #block-system-user-menu ul.menu li {
     height: 27px;
 }
@@ -53,12 +57,12 @@
 
     /* main menu */
     #block-superfish-1 .content {
-        width: 870px;
+        width: 473px;
     }
 
     /* user-menu */
     #block-system-user-menu .content {
-        width: 708px;
+        width: 473px;
     }
 
     /* dfp ads */
