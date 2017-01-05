@@ -46,6 +46,16 @@
         width: 708px;
     }
 
+    /* user-menu */
+    #block-system-user-menu .content {
+        width: 708px;
+    }
+
+    #block-system-user-menu {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
     /* dfp ads */
 
 }
