@@ -69,18 +69,17 @@
                 <div class="postscript-wrapper-inner">
                     <div class="postscript-wrapper-inner-inner">
                         <section id="postscript">
-                            <div
-                                class="grid_3"><?php print render($page['postscript_1']); ?></div>
-                            <div
-                                class="grid_3"><?php print render($page['postscript_2']); ?></div>
-                            <div
-                                class="grid_3"><?php print render($page['postscript_3']); ?></div>
-                            <div
-                                class="grid_3"><?php print render($page['postscript_4']); ?></div>
+                            <div class="grid_4"><?php print render($page['postscript_1']); ?></div>
+                            <div class="grid_4"><?php print render($page['postscript_2']); ?></div>
+                            <div class="grid_4"><?php print render($page['postscript_3']); ?></div>
                         </section>
                     </div>
                 </div>
             </div>
+        <?php endif; ?>
+        <?php endif; ?>
+        <?php if ($page['footer']): ?>
+            <?php print $page['footer']; ?>
         <?php endif; ?>
     </div>
 </div><!-- page -->

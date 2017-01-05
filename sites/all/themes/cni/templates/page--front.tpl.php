@@ -143,6 +143,9 @@
                 </div>
             </div>
         <?php endif; ?>
+        <?php if ($page['footer']): ?>
+            <?php print $page['footer']; ?>
+        <?php endif; ?>
 
     </div>
 </div><!-- page -->
