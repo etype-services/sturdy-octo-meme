@@ -380,11 +380,6 @@ article .field-image {
     visibility: hidden;
 }
 
-/* space out menus */
-#postscript .block {
-    margin-bottom: 1.5em;
-}
-
 /* menus in footer */
 #postscript .block-menu-block ul.menu li {
     float: left;
