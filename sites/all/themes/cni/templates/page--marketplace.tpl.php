@@ -7,7 +7,8 @@
                 <?php print render($page['search_box']); ?>
                 <div id="social">
                     <ul class="social-links">
-                        <li><a class="facebook" href="<?php echo $facebook ?>"></a></li>
+                        <li><a class="facebook"
+                               href="<?php echo $facebook ?>"></a></li>
                     </ul>
                 </div>
             </nav>
@@ -19,8 +20,8 @@
                     <?php if ($logo): ?>
                         <div class="site-logo">
                         <a href="<?php print check_url($front_page); ?>"><img
-                                src="<?php print $logo ?>"
-                                alt="<?php print $site_name; ?>"/></a>
+                                    src="<?php print $logo ?>"
+                                    alt="<?php print $site_name; ?>"/></a>
                         </div><?php print render($page['header']) ?>
                     <?php endif; ?>
                 </header>
@@ -51,7 +52,8 @@
         <?php print render($title_suffix); ?>
         <?php print render($page['help']); ?>
 
-        <div id="fullscreenlink"><span><a href="http://www.mercolocal.com/<?php print $merco; ?>">Click
+        <div id="fullscreenlink"><span><a
+                        href="http://www.mercolocal.com/<?php print $merco; ?>">Click
                 here for full screen or mobile viewing.</a></span></div>
 
         <iframe src="http://www.mercolocal.com/<?php print $merco; ?>"
@@ -78,7 +80,7 @@
             </div>
         <?php endif; ?>
         <?php if ($page['footer']): ?>
-            <?php print render($page['footer']); ?>
+        	<?php print render($page['footer']); ?>
         <?php endif; ?>
     </div>
 </div><!-- page -->

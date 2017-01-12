@@ -10,7 +10,8 @@ body {
 }
 
 a {
-    font-weight: normal; color: #333;
+    font-weight: normal;
+    color: #333;
 }
 
 a:hover {
@@ -174,6 +175,11 @@ h3.site-slogan {
 .view .pager {
     font-family: 'Lato', sans-serif;
     font-size: 0.7em;
+}
+
+/* override module defaults */
+.views-slideshow-pager-fields > div{
+    padding-left: 0;
 }
 
 /* IMAGE FIELD CAPTION
@@ -542,7 +548,7 @@ article .field-image {
 #main-menu ul.menu {
     display: block;
     height: 100%;
-    min-height:33px;
+    min-height: 33px;
     max-height: 85px;
     margin: 0;
     font-family: 'Lato', sans-serif;
@@ -891,6 +897,11 @@ article .field-image {
 
 #search-block-form input:focus {
     box-shadow: 0 0 0 0 #22d7cc;
+}
+
+#search-form .archive_message {
+    padding-top: 21px;
+    font-style: italic;
 }
 
 /* SOCIAL
@@ -1252,7 +1263,7 @@ textarea, select, input[type="date"], input[type="datetime"], input[type="dateti
     margin: 0 auto 20px;
 }
 
-.preface-wrapper .block-dfp .content, .sidebar .block-dfp .content  {
+.preface-wrapper .block-dfp .content, .sidebar .block-dfp .content {
     padding: 0;
 }
 
@@ -1341,6 +1352,32 @@ article.node-webform .node-content-wrapper h1.title {
 }
 
 .preface-wrapper #block-views-ticker-block .content {
-    margin-top :0;
+    margin-top: 0;
     padding: 0;
+}
+
+/* GALLERIA override gallleria classic theme */
+
+/* different heights for different content types */
+.node-type-photos .galleria-info {
+    top: 450px;
+    left: 0;
+}
+
+.galleria-container, .galleria-info-text, .galleria-info-title {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.galleria-thumb-nav-left,
+.galleria-thumb-nav-right,
+.galleria-info-close,
+.galleria-image-nav-left,
+.galleria-image-nav-right {
+    background-image: url(../images/classic-map-cni.png);
+}
+
+.galleria-info-link {
+    display: none;
+    visibility: hidden;
 }
