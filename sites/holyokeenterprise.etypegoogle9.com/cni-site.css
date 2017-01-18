@@ -31,12 +31,12 @@
 
     /* main menu */
     #block-superfish-1 .content {
-        width: 979px;
+        width: 820px;
     }
 
     /* user-menu below main menu */
     #main-menu #block-system-user-menu .content {
-        width: 420px;
+        width: 326px;
     }
 
     /* dfp ads */
@@ -48,13 +48,12 @@
 
     /* main menu */
     #block-superfish-1 .content {
-        width: 797px;
-        font-size: 0.8em;
+        width: 667px;
     }
 
     /* user-menu below main menu */
     #main-menu #block-system-user-menu .content {
-        width: 420px;
+        width: 326px;
     }
 
     /* dfp ads */
