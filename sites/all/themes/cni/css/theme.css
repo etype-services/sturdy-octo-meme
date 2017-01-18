@@ -534,7 +534,7 @@ article .field-image {
     background: 0;
 }
 
-/* user menu below main menu in .region-main-menu */
+/* for sites with user menu below main menu in .region-main-menu */
 #main-menu #block-system-user-menu {
     background-color: #ffffff;
     width: 100%;
