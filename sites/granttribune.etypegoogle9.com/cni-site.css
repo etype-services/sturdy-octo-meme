@@ -12,11 +12,11 @@
 
 /* main-menu background-color */
 #block-superfish-1 {
-    background-color: red;
+    background-color: #3366CC;
 }
 
 .sf-menu.sf-style-space li, .sf-menu.sf-style-space li li, .sf-menu.sf-style-space li li li, .sf-menu.sf-style-space.sf-navbar {
-    background: red;
+    background: #3366CC;
 }
 
 /* SIMPLE ADS
@@ -37,7 +37,7 @@
 
     /* user-menu below main menu */
     #main-menu #block-system-user-menu .content {
-        width: 330px;
+        width: 420px;
     }
 
     /* dfp ads */
@@ -54,7 +54,7 @@
 
     /* user-menu below main menu */
     #main-menu #block-system-user-menu .content {
-        width: 318px;
+        width: 411px;
     }
 
     /* dfp ads */
