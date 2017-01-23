@@ -109,3 +109,7 @@ $sites['southarkansassun.com'] = 'southarkansassun.etypegoogle9.com';
 $sites['www.southarkansassun.com'] = 'southarkansassun.etypegoogle9.com';
 $sites['southarkansassun.net'] = 'southarkansassun.etypegoogle9.com';
 $sites['www.southarkansassun.net'] = 'southarkansassun.etypegoogle9.com';
+
+$sites['humphreydemocrat.etypegoogle9.com'] = 'humphreydemocrat.etypegoogle9.com';
+$sites['humphreydemocrat.com'] = 'humphreydemocrat.etypegoogle9.com';
+$sites['www.humphreydemocrat.com'] = 'humphreydemocrat.etypegoogle9.com';
