@@ -3,7 +3,7 @@
 
 if(isset($_POST['submit'])) {
 
-     
+
    $id=$_POST['sid'];
     $firstname=$_POST['firstname'];
     $lastname=$_POST['lastname'];
@@ -13,9 +13,9 @@ if(isset($_POST['submit'])) {
     $postal=$_POST['postalcode'];
     $phone=$_POST['phone'];
    $param=array('FirstName' =>"$firstname",'LastName' =>"$lastname",'StreetAddress' =>"$address",'City'=>"$city",'State'=>"$state",'PostalCode'=>"$postal",'Phone'=>"$phone",'SubscriberID'=>"$id");
-      
-              $client1= new soapclient('http://etypeservices.com/Service_EditSubscriberProfile.asmx?wsdl');
-                
+
+              $client1= new soapclient('https://etypeservices.com/Service_EditSubscriberProfile.asmx?wsdl');
+
        $response1=$client1->SubscriberUpdateProfile($param);
        drupal_goto('user');
 }
@@ -28,15 +28,15 @@ $nPassword=$_POST['newpassword'];
 //$u=user_check_password('$Password', '$user->pass');
 //$p=user_hash_password('$Password');
  $param1=array('UserName' => $username);
- $client1 = new soapclient('http://etypeservices.com/service_GetPasswordByUserName.asmx?WSDL');
+ $client1 = new soapclient('https://etypeservices.com/service_GetPasswordByUserName.asmx?WSDL');
  $resp=$client1->GetPasswordByUserName($param1);
 if($Password==$resp->GetPasswordByUserNameResult)
 {
  $param=array('UserName'=>$username,'Password' =>$nPassword);
-            
-                 
-                $client = new soapclient('http://etypeservices.com/Service_ChangePassword.asmx?WSDL');
-                
+
+
+                $client = new soapclient('https://etypeservices.com/Service_ChangePassword.asmx?WSDL');
+
          $response=$client->ChangePassword($param);
          //  echo "<pre>";
            //   print_r($response);
@@ -47,7 +47,7 @@ if($Password==$resp->GetPasswordByUserNameResult)
         foreach($qu as $qu)
             {
             $userexit = $qu->name;
-           
+
             }
             if($userexit != '')
             {
@@ -56,7 +56,7 @@ if($Password==$resp->GetPasswordByUserNameResult)
               $msg="Password Change Successful";
     //drupal_goto('custom-login-page');
             }
-            
+
           }
           else
             {
@@ -68,19 +68,19 @@ if($Password==$resp->GetPasswordByUserNameResult)
         <?php
 
 
-               
-                  
+
+
 ?>
 
 
      <p style="color:red"><?php echo $msg; ?></p>
        <!-- <h4  style="background:gray;line-height: 2.0em;font-size: 16px;"><center>My Account</center></h4>-->
-      
-     
+
+
             <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
                           <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
                           <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-                          
+
                           <script>
                           $(function() {
                             $( "#tabs" ).tabs();
@@ -88,35 +88,35 @@ if($Password==$resp->GetPasswordByUserNameResult)
                           </script>
                         </head>
                         <body>
-                         
+
                         <div id="tabs">
                           <ul>
                           <li><a href="#tabs-1">Personal Information</a></li>
                             <li><a href="#tabs-2">Change Password</a></li>
-                            
+
                           </ul>
                           <div id="tabs-1">
                             <p> <form name="form2" id="form2" method="POST" action="" enctype="multipart/form-data">
-          
-              
+
+
 <div  style="margin-left:80px">
-           <?php 
+           <?php
              global $user;
  $uname=$user->name;
 $param=array('UserName' =>"$uname");
-      
-              $client= new soapclient('http://etypeservices.com/Service_GetDetails_ByUserName.asmx?WSDL');
-                
+
+              $client= new soapclient('https://etypeservices.com/Service_GetDetails_ByUserName.asmx?WSDL');
+
        $response=$client->GetDetailsByUserName($param);
       //echo "<pre>";
          //print_r($response);
          //echo "</pre>";
-        
+
            ?>
            <input type="hidden" name="sid" value="<?php echo $response->GetDetailsByUserNameResult->UserDetails->ID; ?>">
            <table style="width:85%">
                 <tr><td><strong>Email:</strong></td><td>
-              
+
                 <label><?php echo $response->GetDetailsByUserNameResult->UserDetails->Email; ?></label></td>
                 </tr>
                 <tr>
@@ -125,40 +125,40 @@ $param=array('UserName' =>"$uname");
             </tr>
                 <tr>
                 <td><strong>First Name:</strong></td><td>
- 
+
                 <input type="text" name="firstname" value="<?php echo $response->GetDetailsByUserNameResult->UserDetails->FirstName; ?>" class="txt" required="required" /></td>
             </tr>
                 <tr>
                 <td><strong>Last Name:</strong></td><td>
- 
+
                 <input type="text" name="lastname" value="<?php echo $response->GetDetailsByUserNameResult->UserDetails->LastName; ?>" class="txt" required="required" /></td>
             </tr>
                 <tr>
                 <td><strong>Street Address:</strong></td><td>
- 
+
                 <input type="text" value="<?php echo $response->GetDetailsByUserNameResult->UserDetails->Address; ?>" name="address" class="txt" required="required" /></td>
             </tr>
                 <tr>
                 <td><strong>City:</strong></td><td>
- 
+
                 <input type="text" value="<?php echo $response->GetDetailsByUserNameResult->UserDetails->City; ?>" name="city" class="txt" required="required" /></td>
             </tr>
                 <tr>
                 <td><strong>State:</strong></td><td>
- 
+
                 <input type="text" value="<?php echo $response->GetDetailsByUserNameResult->UserDetails->State; ?>" name="state" class="txt" required="required" /></td>
             </tr>
                 <tr>
                 <td><strong>Postal Code:</strong></td><td>
- 
+
                 <input type="text" value="<?php echo $response->GetDetailsByUserNameResult->UserDetails->Zip; ?>" name="postalcode" class="txt" required="required" /></td>
             </tr>
                 <tr>
                 <td><strong>Phone number:</strong></td><td>
- 
+
                 <input type="text" value="<?php echo $response->GetDetailsByUserNameResult->UserDetails->Phone; ?>" name="phone" class="txt" required="required" /></td>
               </tr></table>
-          
+
               <div style="margin-top: 22px; margin-bottom: 42px;">
         <input type="submit" name="submit" onClick="javascript:return validation();" value="Submit" style="float:left;background-color: gainsboro;border-radius: 4px;width: 93px;height: 28px;border: 1px solid #CCC;text-decoration: none;color: #000;text-shadow: white 0 1px 1px;padding: 2px;" />
 
@@ -167,11 +167,11 @@ $param=array('UserName' =>"$uname");
       </div>
             </form></p>
                           </div>
-                            
+
                       </div>
                           <div id="tabs-2">
                             <p> <div class="login">
-      
+
       <form name="change password" method="POST" action="">
         <p style="color:red"><?php echo $msg; ?></p>
         <table>
@@ -195,9 +195,9 @@ $param=array('UserName' =>"$uname");
             <td><input type="password" id="confirmpassword" required name="confirmpassword" pattern=".{6,}" oninput="check(this)" placeholder="Confirm Password">
             </td>
           </tr>
-        </table>  
-        
-        
+        </table>
+
+
         <p class="submit">
         <input type="submit" name="change" value="Submit" style="background-color: gainsboro;border-radius: 4px;width: 93px;height: 28px;border: 1px solid #CCC;text-decoration: none;color: #000;text-shadow: white 0 1px 1px;padding: 2px;" />
         </p>
@@ -212,20 +212,19 @@ function check(input) {
    }
 }
 
-</script>   
+</script>
     </div></p>
                           </div>
-                          
-                        
-                         
 
-        
- 
- 
-           
-            
-          
+
+
+
+
+
+
+
+
+
                         </div>
-        
 
-   
+

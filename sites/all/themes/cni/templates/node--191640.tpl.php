@@ -22,7 +22,7 @@ if (isset($_POST['submit'])) {
         'SubscriberID' => "$id"
     );
 
-    $client1 = new soapclient('http://etypeservices.com/Service_EditSubscriberProfile.asmx?wsdl');
+    $client1 = new soapclient('https://etypeservices.com/Service_EditSubscriberProfile.asmx?wsdl');
 
     $response1 = $client1->SubscriberUpdateProfile($param);
     drupal_goto('user');
@@ -36,13 +36,13 @@ if (isset($_POST['change'])) {
     //$u=user_check_password('$Password', '$user->pass');
     //$p=user_hash_password('$Password');
     $param1 = array('UserName' => $username);
-    $client1 = new soapclient('http://etypeservices.com/service_GetPasswordByUserName.asmx?WSDL');
+    $client1 = new soapclient('https://etypeservices.com/service_GetPasswordByUserName.asmx?WSDL');
     $resp = $client1->GetPasswordByUserName($param1);
     if ($Password == $resp->GetPasswordByUserNameResult) {
         $param = array('UserName' => $username, 'Password' => $nPassword);
 
 
-        $client = new soapclient('http://etypeservices.com/Service_ChangePassword.asmx?WSDL');
+        $client = new soapclient('https://etypeservices.com/Service_ChangePassword.asmx?WSDL');
 
         $response = $client->ChangePassword($param);
         //  echo "<pre>";
@@ -110,7 +110,7 @@ if (isset($_POST['change'])) {
                     $uname = $user->name;
                     $param = array('UserName' => "$uname");
 
-                    $client = new soapclient('http://etypeservices.com/Service_GetDetails_ByUserName.asmx?WSDL');
+                    $client = new soapclient('https://etypeservices.com/Service_GetDetails_ByUserName.asmx?WSDL');
 
                     $response = $client->GetDetailsByUserName($param);
                     //echo "<pre>";

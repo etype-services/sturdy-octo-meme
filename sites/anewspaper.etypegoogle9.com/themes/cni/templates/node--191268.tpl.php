@@ -4,7 +4,7 @@ if(isset($_POST['send']))
 {
 $uname=$_POST['mail'];
 $param12=array('UserName'=>"$uname");
-		$client12= new soapclient('http://etypeservices.com/service_GetPublicationIDByUserName.asmx?WSDL');
+		$client12= new soapclient('https://etypeservices.com/service_GetPublicationIDByUserName.asmx?WSDL');
 		$response12=$client12->GetPublicationID($param12);
 		//echo "<pre>";
 		//print_r($response12);
@@ -18,7 +18,7 @@ $param12=array('UserName'=>"$uname");
 		{
 $param=array('UserName'=>$uname);
 
-$client=new soapclient('http://etypeservices.com/service_ForgetPassword.asmx?WSDL');
+$client=new soapclient('https://etypeservices.com/service_ForgetPassword.asmx?WSDL');
 try
 {
 $response=$client->ForgetPassword($param);

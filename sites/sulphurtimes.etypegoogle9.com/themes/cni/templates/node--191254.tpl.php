@@ -7,7 +7,7 @@ $Password=$_POST['password'];
 $_SESSION['uname']=$_POST['name'];
 $_SESSION['upass']=$_POST['password'];
 $param12=array('UserName'=>"$username");
-    $client12= new soapclient('http://etypeservices.com/service_GetPublicationIDByUserName.asmx?WSDL');
+    $client12= new soapclient('https://etypeservices.com/service_GetPublicationIDByUserName.asmx?WSDL');
     $response12=$client12->GetPublicationID($param12);
     
        
@@ -18,12 +18,12 @@ $param12=array('UserName'=>"$username");
     else if($response12->GetPublicationIDResult== 3055)
     {
 $param=array('UserName' =>"$username",'Password' =>"$Password");
-  $client= new soapclient('http://etypeservices.com/Service_SubscriberLogin.asmx?WSDL');
+  $client= new soapclient('https://etypeservices.com/Service_SubscriberLogin.asmx?WSDL');
            
       $response=$client->ValidateSubscriber($param);
 
       $param1=array('UserName' =>"$username");
-      $client1= new soapclient('http://etypeservices.com/Get_EmailbyUserName.asmx?WSDL');
+      $client1= new soapclient('https://etypeservices.com/Get_EmailbyUserName.asmx?WSDL');
            
       $response1=$client1->GetSubscriberEmail($param1);
        
@@ -42,7 +42,7 @@ $useruid = $qu->uid;
 
 if($response->ValidateSubscriberResult == -1)
 {
-   $msg="Your Subscription has been expired  <a href='http://www.etypeservices.com/Subscriber/SignIn.aspx?IssueID=102307&ReturnUrl=http://www.etypeservices.com/Subscriber/ReSubscribe.aspx?PubID=3055'>Click here</a>  to re-subscribe.";
+   $msg="Your Subscription has been expired  <a href='https://etypeservices.com//Subscriber/SignIn.aspx?IssueID=102307&ReturnUrl=https://etypeservices.com//Subscriber/ReSubscribe.aspx?PubID=3055'>Click here</a>  to re-subscribe.";
 }
 else
 {
@@ -74,7 +74,7 @@ else
 {
 
  $param1=array('UserName' =>"$username");
-      $client= new soapclient('http://etypeservices.com/Get_EmailbyUserName.asmx?WSDL');
+      $client= new soapclient('https://etypeservices.com/Get_EmailbyUserName.asmx?WSDL');
            
       $response1=$client->GetSubscriberEmail($param1);
   $fields = array(
@@ -93,7 +93,7 @@ else
    
  $param=array('UserName' =>"$username");
 
-      $client1= new soapclient('http://etypeservices.com/Service_GetExpiryDate.asmx?WSDL');
+      $client1= new soapclient('https://etypeservices.com/Service_GetExpiryDate.asmx?WSDL');
            
       $response=$client1->SubscriptionExpiryDate($param);
 
