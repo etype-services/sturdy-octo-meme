@@ -3,8 +3,8 @@
 
 /* Sidebars Split */
 
-.sidebars-split .main-inner, .sidebars-split .first-sidebar,  {
-	float: left;
+.sidebars-split .main-inner, .sidebars-split .first-sidebar {
+    float: left;
 }
 
 .sidebars-split .second-sidebar  {
@@ -40,7 +40,7 @@ body {
 a {
  color: #111111;
  font-weight: bold;
- text-decoration: none;	
+ text-decoration: none;
 }
 
 .header-wrapper-inner, .preface-wrapper-inner, .main-content-wrapper-inner, .footer-wrapper-inner {
@@ -231,7 +231,7 @@ ul.secondary a.active {
 }
 
 #main-menu ul.menu li li a:hover, #main-menu ul.menu li li a.active:hover {
-  background: #333333;  
+  background: #333333;
 }
 
 #main-menu ul.menu li ul ul {
@@ -376,12 +376,12 @@ blockquote {
   padding-left: 58px;
   color: #666666;
   background: url(../images/icons_48/openquote.png) top left no-repeat;
-} 
+}
 
 blockquote p {
   padding-right: 50px;
   background:  url(../images/icons_48/closequote.png) bottom right no-repeat;
-} 
+}
 
 pre {
   padding: 10px;
