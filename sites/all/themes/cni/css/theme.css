@@ -57,7 +57,6 @@ p {
 td {
     padding: 5px;
     vertical-align: middle;
-    border: 1px solid #dddddd;
 }
 
 img {
@@ -89,6 +88,20 @@ h3.site-slogan {
 .region-headerad .block {
     float: left;
 }
+
+/* logo */
+.site-logo {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.site-logo img {
+    width: 100%;
+    max-width: 700px;
+}
+
 
 /* SLIDESHOW
 --------------------------------------------------------------------------*/
@@ -178,7 +191,7 @@ h3.site-slogan {
 }
 
 /* override module defaults */
-.views-slideshow-pager-fields > div{
+.views-slideshow-pager-fields > div {
     padding-left: 0;
 }
 
@@ -266,7 +279,7 @@ h3.site-slogan {
 /* MAIN CONTENT
 --------------------------------------------------------------------------*/
 
-.main-content-wrapper {
+.front .main-content-wrapper {
     margin-top: 20px;
 }
 
@@ -312,6 +325,10 @@ article .field-image {
 #postscript {
     color: #dddddd;
     font-size: 0.9em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    white-space: nowrap;
 }
 
 #postscript a {
@@ -321,15 +338,14 @@ article .field-image {
 }
 
 .postscript-wrapper {
-    padding: 1em 1em 0;
+    padding: 1em;
     margin: 0;
     background: url(../images/postscript-bg.png);
-    border-top: 3px solid #252525;
 }
 
 /* override widths for .grid_3 in footer */
-.container_12 .postscript-wrapper .grid_3 {
-    width: 30% !important;
+.container_12 .postscript-wrapper .grid_4 {
+    width: inherit;
 }
 
 .postscript-wrapper .block-inner {
@@ -342,12 +358,12 @@ article .field-image {
 
 .postscript-wrapper h3 {
     display: block;
-    margin-bottom: 0.4em;
+    margin-bottom: 0.3em;
+    line-height: 1.4em; /* for titles that go to second line */
 }
 
 .postscript-wrapper h3 span {
     padding-right: 5px;
-    background: #333333;
     color: #999999;
 }
 
@@ -407,6 +423,18 @@ article .field-image {
     font-family: 'Lato', sans-serif;
     font-size: 0.8em;
 }
+
+#postscript p a {
+    font-size: 1em;
+}
+
+/* full width area in postscript */
+.region-postscript-banner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
 
 /* FOOTER
 --------------------------------------------------------------------------*/
@@ -572,11 +600,12 @@ article .field-image {
 }
 
 #main-menu ul.menu {
-    display: block;
+    display: flex;
+    justify-content: space-around;
     height: 100%;
     min-height: 33px;
     max-height: 85px;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Lato', sans-serif;
 }
 
@@ -587,6 +616,7 @@ article .field-image {
     text-transform: uppercase;
     height: 33px;
     line-height: 33px;
+    font-size: 13px;
 }
 
 #main-menu ul.menu li a:hover {
@@ -601,8 +631,9 @@ article .field-image {
 }
 
 /* Main Menu custom styling */
-#block-superfish-1 {
-    height: 33px;
+#block-superfish-1, .sf-menu.sf-style-space li, .sf-menu.sf-style-space li li, .sf-menu.sf-style-space li li li, .sf-menu.sf-style-space.sf-navbar {
+    background: #000000;
+    font-size: inherit;
 }
 
 #block-superfish-1 .block-inner {
@@ -979,6 +1010,10 @@ article .field-image {
     background: url(../images/instagram.png) no-repeat;
 }
 
+.googleplus {
+    background: url(../images/googleplus.png) no-repeat;
+}
+
 /* MISC
 --------------------------------------------------------------------------*/
 
@@ -1167,11 +1202,6 @@ blockquote p {
     background: none;
 }
 
-#views-slideshow-galleria-1 .views-slideshow-galleria-images-1 {
-    max-width: 230px;
-    height: auto;
-}
-
 .views-slideshow-controls-bottom img {
     float: left;
     margin-right: 10px;
@@ -1250,16 +1280,6 @@ textarea, select, input[type="date"], input[type="datetime"], input[type="dateti
     border-bottom: 1px solid #dddddd;
 }
 
-.page-node .node-article .galleria-info-link {
-    display: none;
-    visibility: hidden;
-}
-
-/* galleria on article pages */
-.page-node .node-article .galleria-info {
-    top: 308px;
-}
-
 /* DFP / GOOGLE ADS
 --------------------------------------------------------------------------*/
 .block-dfp {
@@ -1279,6 +1299,10 @@ textarea, select, input[type="date"], input[type="datetime"], input[type="dateti
     margin: 20px auto 0;
 }
 
+.not-front .region-main-menu-second-level .block-dfp {
+    margin: 20px auto 20px;
+}
+
 .region-content-bottom .block-dfp {
     width: 728px;
     margin: 0 auto 20px;
@@ -1293,50 +1317,13 @@ textarea, select, input[type="date"], input[type="datetime"], input[type="dateti
     padding: 0;
 }
 
-/* SIMPLE ADS
---------------------------------------------------------------------------*/
-
-#main-content .block-simpleads .block-inner {
-    padding: 0;
-    margin: 0;
-    border: none;
-    box-shadow: none;
-}
-
-.region-main-menu .block-simpleads {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.region-main-menu-second-level .block-simpleads {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.slideshow-wrapper-inner .block-simpleads {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-/* OWN LOCAL
---------------------------------------------------------------------------*/
-#block-etype-own-local .block-inner {
-    padding: 0;
-    margin: 0;
-    border: none;
-    box-shadow: none;
-}
-
-#block-etype-own-local .block-inner .content {
-    padding: 0;
-}
-
 /* ADVANCED POLL
 --------------------------------------------------------------------------*/
 #block-advpoll-advpoll-recent h2.title {
     font-size: 1em;
     line-height: 1.3em;
     text-transform: none;
+    margin-top: 1em;
 }
 
 #block-advpoll-advpoll-recent .submitted {
@@ -1382,52 +1369,41 @@ article.node-webform .node-content-wrapper h1.title {
     padding: 0;
 }
 
-/* GALLERIA -- override galleria classic theme */
-.galleria-theme-classic {
-    background-color: #ffffff;
+/* Florida Public Legals */
+.view-id-legals .view-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.galleria-theme-classic .galleria-stage {
-    top: 0;
-    left: 0;
-    right: 0;
+/* flexslider overrides */
+.flexslider {
+    font: 0.8em/1.4 lato;
 }
 
-.galleria-theme-classic .galleria-thumb-nav-left, .galleria-theme-classic .galleria-thumb-nav-right, .galleria-theme-classic .galleria-info-link, .galleria-theme-classic .galleria-info-close, .galleria-theme-classic .galleria-image-nav-left, .galleria-theme-classic .galleria-image-nav-right {
-    background-image: url(../../../../all/themes/cni/images/classic-map-cni.png);
+.flex-control-nav {
+    bottom: -30px;
 }
 
-.galleria-theme-classic .galleria-info {
-    top: 31px;
-    left: 0;
+.content .node-page ul.flex-direction-nav,
+.content .node-article ul.flex-direction-nav,
+ul.flex-direction-nav {
+    list-style: none;
 }
 
-.galleria-theme-classic .galleria-info-text {
-    display: block;
-    opacity: 0.5;
+.content .node-page ul.slides,
+.content .node-article ul.slides,
+ul.slides {
+    margin: 0;
 }
 
-.galleria-theme-classic .galleria-info-title {
-    margin-bottom: 0;
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
+/* views-fluid-grid Classifieds */
+div.views-fluid-grid {
+    margin-bottom: 1em;
 }
 
-.galleria-theme-classic .galleria-info-link {
-    display: none;
-    visibility: hidden;
+li.views-fluid-grid-item {
+    color: inherit;
+    background: none;
+    border: none;
 }
-
-.galleria-theme-classic.notouch .galleria-thumb-nav-left:hover, .galleria-theme-classic.notouch .galleria-thumb-nav-right:hover {
-    background-color: #fff;
-}
-
-.galleria-theme-classic .galleria-thumbnails .galleria-image {
-    width: 50px;
-    height: 50px;
-}
-
-.galleria-theme-classic .galleria-thumb-nav-right, .galleria-theme-classic .galleria-thumb-nav-keft {
-    top: 4px;
-}
-
