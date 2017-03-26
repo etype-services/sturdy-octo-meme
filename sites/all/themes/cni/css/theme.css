@@ -102,7 +102,6 @@ h3.site-slogan {
     max-width: 700px;
 }
 
-
 /* SLIDESHOW
 --------------------------------------------------------------------------*/
 .view-slideshow .views_slideshow_main {
@@ -435,7 +434,6 @@ article .field-image {
     margin-top: 1em;
 }
 
-
 /* FOOTER
 --------------------------------------------------------------------------*/
 .region-footer {
@@ -576,6 +574,10 @@ article .field-image {
 
 #main-menu #block-system-user-menu ul.menu li {
     height: 27px;
+}
+
+#main-menu #block-system-user-menu ul.menu li a {
+    font-size: 0.8em;
 }
 
 #main-menu #block-system-user-menu ul.menu li a {
@@ -1007,9 +1009,9 @@ article .field-image {
     background: url(../images/instagram.png) no-repeat;
 }
 
-/*.googleplus {
+.googleplus {
     background: url(../images/googleplus.png) no-repeat;
-}*/
+}
 
 /* MISC
 --------------------------------------------------------------------------*/
