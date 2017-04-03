@@ -34,7 +34,7 @@
 
     #main-menu ul.menu li ul {
         background: #cccccc none repeat scroll 0% 0%;
-        width: 200px;
+        width: inherit;
     }
 
     #main-menu ul.menu li ul li {
@@ -115,7 +115,7 @@
 
     #main-menu ul.menu li ul {
         background: #cccccc none repeat scroll 0% 0%;
-        width: 200px;
+        width: inherit;
     }
 
     #main-menu ul.menu li ul li {
