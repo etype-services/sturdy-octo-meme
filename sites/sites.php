@@ -119,3 +119,7 @@ $sites['www.humphreydemocrat.com'] = 'humphreydemocrat.etypegoogle9.com';
 $sites['rileycountian.etypegoogle9.com'] = 'rileycountian.etypegoogle9.com';
 $sites['rileycountian.com'] = 'rileycountian.etypegoogle9.com';
 $sites['www.rileycountian.com'] = 'rileycountian.etypegoogle9.com';
+
+$sites['thehardwickgazette.etypegoogle9.com'] = 'thehardwickgazette.etypegoogle9.com';
+$sites['thehardwickgazette.com'] = 'thehardwickgazette.etypegoogle9.com';
+$sites['www.thehardwickgazette.com'] = 'thehardwickgazette.etypegoogle9.com';
