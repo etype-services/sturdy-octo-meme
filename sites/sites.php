@@ -123,3 +123,7 @@ $sites['www.rileycountian.com'] = 'rileycountian.etypegoogle9.com';
 $sites['thehardwickgazette.etypegoogle9.com'] = 'thehardwickgazette.etypegoogle9.com';
 $sites['thehardwickgazette.com'] = 'thehardwickgazette.etypegoogle9.com';
 $sites['www.thehardwickgazette.com'] = 'thehardwickgazette.etypegoogle9.com';
+
+$sites['phonographherald.etypegoogle9.com'] = 'phonographherald.etypegoogle9.com';
+$sites['phonographherald.com'] = 'phonographherald.etypegoogle9.com';
+$sites['www.phonographherald.com'] = 'phonographherald.etypegoogle9.com';
