@@ -732,10 +732,12 @@ article .field-image {
     background: #eeeeee;
 }
 
+/* set display to none for e edition on home page */
 .node ul.links li.node-readmore a {
     font-size: 0.8em;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
+	display:none;
 }
 
 .node .taxonomy .field-type-taxonomy-term-reference {
