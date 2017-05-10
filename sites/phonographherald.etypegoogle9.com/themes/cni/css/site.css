@@ -14,6 +14,11 @@
     display: none;
     visibility: hidden;
 }
+/* phonograph uses h2 on front */
+.front h2.title {
+    display: none;
+    visibility: hidden;
+}
 
 /* main-menu background-color */
 #block-superfish-1 {
