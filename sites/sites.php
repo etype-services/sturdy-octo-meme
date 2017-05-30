@@ -127,3 +127,5 @@ $sites['www.thehardwickgazette.com'] = 'thehardwickgazette.etypegoogle9.com';
 $sites['phonographherald.etypegoogle9.com'] = 'phonographherald.etypegoogle9.com';
 $sites['phonographherald.com'] = 'phonographherald.etypegoogle9.com';
 $sites['www.phonographherald.com'] = 'phonographherald.etypegoogle9.com';
+$sites['phonographherald.net'] = 'phonographherald.etypegoogle9.com';
+$sites['www.phonographherald.net'] = 'phonographherald.etypegoogle9.com';
