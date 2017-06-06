@@ -129,3 +129,7 @@ $sites['phonographherald.com'] = 'phonographherald.etypegoogle9.com';
 $sites['www.phonographherald.com'] = 'phonographherald.etypegoogle9.com';
 $sites['phonographherald.net'] = 'phonographherald.etypegoogle9.com';
 $sites['www.phonographherald.net'] = 'phonographherald.etypegoogle9.com';
+
+$sites['councilgroverepublican.etypegoogle9.com'] = 'councilgroverepublican.etypegoogle9.com';
+$sites['councilgroverepublican.com'] = 'councilgroverepublican.etypegoogle9.com';
+$sites['www.councilgroverepublican.com'] = 'councilgroverepublican.etypegoogle9.com';
