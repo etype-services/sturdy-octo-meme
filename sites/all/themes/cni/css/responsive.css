@@ -411,12 +411,11 @@
     /* SLIDESHOW
 --------------------------------------------------------------------------*/
     .view-slideshow .views_slideshow_main {
-        height: 160px;
-        margin: 14px;
+        height: 210px;
     }
 
     .view-slideshow .views_slideshow_main .views-field-field-image img, .view-slideshow .views_slideshow_main .views-field-field-video img {
-        width: 270px;
+        width: 300px;
         height: auto;
     }
 
