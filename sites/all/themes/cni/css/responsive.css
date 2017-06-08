@@ -415,12 +415,12 @@
     }
 
     .view-slideshow .views_slideshow_main .views-field-field-image img, .view-slideshow .views_slideshow_main .views-field-field-video img {
-        width: 300px;
+        width: 298px;
         height: auto;
     }
 
     .view-slideshow .views_slideshow_main .views-field-title {
-        width: 230px;
+        width: 259px;
     }
 
     .view-slideshow .views_slideshow_main .views-field-body {
