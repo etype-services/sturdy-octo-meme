@@ -155,11 +155,11 @@
     /* SLIDESHOW
     --------------------------------------------------------------------------*/
     .view-slideshow .views_slideshow_main {
-        height: 268px;
+        height: 292px;
     }
 
     .view-slideshow .views_slideshow_main .views-field-field-image img, .view-slideshow .views_slideshow_main .views-field-field-video img {
-        width: 452px;
+        width: 491px;
         height: auto;
     }
 
@@ -228,16 +228,16 @@
     /* SLIDESHOW
     --------------------------------------------------------------------------*/
     .view-slideshow .views_slideshow_main {
-        height: 200px;
+        height: 257px;
     }
 
     .view-slideshow .views_slideshow_main .views-field-field-image img, .view-slideshow .views_slideshow_main .views-field-field-video img {
-        width: 379px;
+        width: 418px;
         height: auto;
     }
 
     .view-slideshow .views_slideshow_main .views-field-title {
-        width: 339px;
+        width: 378px;
     }
 
     .view-slideshow .views_slideshow_main .views-field-body {
