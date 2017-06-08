@@ -90,6 +90,10 @@ h3.site-slogan {
 
 /* SLIDESHOW
 --------------------------------------------------------------------------*/
+#block-views-slideshow-block .block-inner {
+    padding: 0 0 20px 0;
+}
+
 .view-slideshow .views_slideshow_main {
     position: relative;
     height: 400px;
@@ -97,14 +101,10 @@ h3.site-slogan {
 
 .view-slideshow .views_slideshow_main .views-field-field-image {
     position: absolute;
-    top: -20px;
-    left: -20px;
 }
 
 .view-slideshow .views_slideshow_main .views-field-field-video {
     position: absolute;
-    top: -20px;
-    left: -20px;
 }
 
 .view-slideshow .views_slideshow_main .views-field-field-image img {
@@ -116,8 +116,6 @@ h3.site-slogan {
     position: absolute;
     padding: 20px;
     width: 578px;
-    top: -20px;
-    left: -20px;
     background: url(../images/trans.png);
     color: #ffffff;
     font-family: 'Lato', sans-serif;
@@ -136,7 +134,6 @@ h3.site-slogan {
     width: 578px;
     padding: 20px;
     top: 290px;
-    left: -20px;
     background: url(../images/trans.png);
     color: #ffffff;
 }
