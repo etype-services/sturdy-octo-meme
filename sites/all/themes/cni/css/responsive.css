@@ -472,10 +472,6 @@
 /* less granular switch for big and small */
 @media only screen and (max-width: 767px) {
 
-    #page, .front .main-content-wrapper {
-        margin-top: 7px;
-    }
-
     #postscript {
         flex-wrap: wrap;
     }
