@@ -139,3 +139,8 @@ $sites['www.councilgroverepublican.com'] = 'councilgroverepublican.etypegoogle9.
 $sites['comanchecountychronicle.etypegoogle9.com'] = 'comanchecountychronicle.etypegoogle9.com';
 $sites['thechronicle.news'] = 'comanchecountychronicle.etypegoogle9.com';
 $sites['www.thechronicle.news'] = 'comanchecountychronicle.etypegoogle9.com';
+
+
+$sites['quizgraphics.etypegoogle9.com'] = 'quizgraphics.etypegoogle9.com';
+$sites['quizgraphics.com'] = 'quizgraphics.etypegoogle9.com';
+$sites['www.quizgraphics.com'] = 'quizgraphics.etypegoogle9.com';
