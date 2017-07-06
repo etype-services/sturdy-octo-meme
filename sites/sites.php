@@ -140,7 +140,10 @@ $sites['comanchecountychronicle.etypegoogle9.com'] = 'comanchecountychronicle.et
 $sites['thechronicle.news'] = 'comanchecountychronicle.etypegoogle9.com';
 $sites['www.thechronicle.news'] = 'comanchecountychronicle.etypegoogle9.com';
 
-
 $sites['quizgraphics.etypegoogle9.com'] = 'quizgraphics.etypegoogle9.com';
 $sites['quizgraphics.com'] = 'quizgraphics.etypegoogle9.com';
 $sites['www.quizgraphics.com'] = 'quizgraphics.etypegoogle9.com';
+
+$sites['perrysburg.etypegoogle9.com'] = 'perrysburg.etypegoogle9.com';
+$sites['perrysburg.com'] = 'perrysburg.etypegoogle9.com';
+$sites['www.perrysburg.com'] = 'perrysburg.etypegoogle9.com';
