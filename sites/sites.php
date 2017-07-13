@@ -147,3 +147,7 @@ $sites['www.quizgraphics.com'] = 'quizgraphics.etypegoogle9.com';
 $sites['perrysburg.etypegoogle9.com'] = 'perrysburg.etypegoogle9.com';
 $sites['perrysburg.com'] = 'perrysburg.etypegoogle9.com';
 $sites['www.perrysburg.com'] = 'perrysburg.etypegoogle9.com';
+
+$sites['beloitcall.etypegoogle9.com'] = 'beloitcall.etypegoogle9.com';
+$sites['beloitcall.com'] = 'beloitcall.etypegoogle9.com';
+$sites['www.beloitcall.com'] = 'beloitcall.etypegoogle9.com';
