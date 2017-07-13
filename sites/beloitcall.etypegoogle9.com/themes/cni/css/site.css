@@ -1,0 +1,89 @@
+/* logo */
+.site-logo {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1290px;
+}
+
+.site-logo img {
+    width: 100%;
+    max-width: 1290px;
+}
+
+.front h1.title {
+    display: none;
+    visibility: hidden;
+}
+
+/* main-menu background-color */
+#block-superfish-1 {
+    background-color: #094385;
+}
+
+.sf-menu.sf-style-space li, .sf-menu.sf-style-space li li, .sf-menu.sf-style-space li li li, .sf-menu.sf-style-space.sf-navbar {
+    background: #094385;
+}
+
+/* SIMPLE ADS
+--------------------------------------------------------------------------*/
+
+
+/* Google DFP Ads
+--------------------------------------------------------------------------*/
+
+/* hide info on webforms */
+article.node-webform .node-content-wrapper .submitted span {
+    display: none;
+    visibility: hidden;
+}
+
+article.node-webform .node-content-wrapper h1.title {
+    margin-bottom: 0;
+}
+
+/* wide desktop browsers */
+@media only screen and (min-width: 959px) {
+
+    /* main menu */
+    #block-superfish-1 .content {
+        width: 979px;
+    }
+
+    .container_12 .grid_8 {
+        width: 960px;
+    }
+
+}
+
+/* desktop browsers */
+@media only screen and (min-width: 768px) and (max-width: 958px) {
+
+    /* main menu */
+    #block-superfish-1 .content {
+        width: 797px;
+        font-size: 0.8em;
+    }
+
+    .container_12 .grid_8 {
+        width: 768px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* Hide larger DFP ads on non full-size browsers */
+    /* weather block */
+    #block-block-35 {
+        visibility: hidden;
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* Hide larger DFP ads on non full-size browsers */
+
+
+}
