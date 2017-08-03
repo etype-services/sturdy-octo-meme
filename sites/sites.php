@@ -155,3 +155,7 @@ $sites['www.beloitcall.com'] = 'beloitcall.etypegoogle9.com';
 $sites['eurekaherald.etypegoogle9.com'] = 'eurekaherald.etypegoogle9.com';
 $sites['eurekaherald.com'] = 'eurekaherald.etypegoogle9.com';
 $sites['www.eurekaherald.com'] = 'eurekaherald.etypegoogle9.com';
+
+$sites['beckhamcountyrecord.etypegoogle9.com'] = 'beckhamcountyrecord.etypegoogle9.com';
+$sites['beckhamcountyrecord.com'] = 'beckhamcountyrecord.etypegoogle9.com';
+$sites['www.beckhamcountyrecord.com'] = 'beckhamcountyrecord.etypegoogle9.com';
