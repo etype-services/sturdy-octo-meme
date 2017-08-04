@@ -159,3 +159,5 @@ $sites['www.eurekaherald.com'] = 'eurekaherald.etypegoogle9.com';
 $sites['beckhamcountyrecord.etypegoogle9.com'] = 'beckhamcountyrecord.etypegoogle9.com';
 $sites['beckhamcountyrecord.com'] = 'beckhamcountyrecord.etypegoogle9.com';
 $sites['www.beckhamcountyrecord.com'] = 'beckhamcountyrecord.etypegoogle9.com';
+$sites['sayrerecord.com'] = 'beckhamcountyrecord.etypegoogle9.com';
+$sites['www.sayrerecord.com'] = 'beckhamcountyrecord.etypegoogle9.com';
