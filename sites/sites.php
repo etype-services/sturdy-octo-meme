@@ -161,3 +161,7 @@ $sites['beckhamcountyrecord.com'] = 'beckhamcountyrecord.etypegoogle9.com';
 $sites['www.beckhamcountyrecord.com'] = 'beckhamcountyrecord.etypegoogle9.com';
 $sites['sayrerecord.com'] = 'beckhamcountyrecord.etypegoogle9.com';
 $sites['www.sayrerecord.com'] = 'beckhamcountyrecord.etypegoogle9.com';
+
+$sites['freemansd.etypegoogle9.com'] = 'freemansd.etypegoogle9.com';
+$sites['freemansd.com'] = 'freemansd.etypegoogle9.com';
+$sites['www.freemansd.com'] = 'freemansd.etypegoogle9.com';
