@@ -147,6 +147,12 @@ $sites['www.quizgraphics.com'] = 'quizgraphics.etypegoogle9.com';
 $sites['perrysburg.etypegoogle9.com'] = 'perrysburg.etypegoogle9.com';
 $sites['perrysburg.com'] = 'perrysburg.etypegoogle9.com';
 $sites['www.perrysburg.com'] = 'perrysburg.etypegoogle9.com';
+$sites['rossford.com'] = 'perrysburg.etypegoogle9.com';
+$sites['www.rossford.com'] = 'perrysburg.etypegoogle9.com';
+$sites['pointandshoreland.com'] = 'perrysburg.etypegoogle9.com';
+$sites['www.pointandshoreland.com'] = 'perrysburg.etypegoogle9.com';
+$sites['hollandsfj.us'] = 'perrysburg.etypegoogle9.com';
+$sites['www.hollandsfj.us'] = 'perrysburg.etypegoogle9.com';
 
 $sites['beloitcall.etypegoogle9.com'] = 'beloitcall.etypegoogle9.com';
 $sites['beloitcall.com'] = 'beloitcall.etypegoogle9.com';
