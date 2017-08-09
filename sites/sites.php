@@ -153,6 +153,8 @@ $sites['pointandshoreland.com'] = 'perrysburg.etypegoogle9.com';
 $sites['www.pointandshoreland.com'] = 'perrysburg.etypegoogle9.com';
 $sites['hollandsfj.us'] = 'perrysburg.etypegoogle9.com';
 $sites['www.hollandsfj.us'] = 'perrysburg.etypegoogle9.com';
+$sites['welchpublishing.com/'] = 'perrysburg.etypegoogle9.com';
+$sites['www.welchpublishing.com/'] = 'perrysburg.etypegoogle9.com';
 
 $sites['beloitcall.etypegoogle9.com'] = 'beloitcall.etypegoogle9.com';
 $sites['beloitcall.com'] = 'beloitcall.etypegoogle9.com';
