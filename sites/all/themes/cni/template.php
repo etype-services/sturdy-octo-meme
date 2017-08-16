@@ -73,9 +73,8 @@ function cni_preprocess_node(&$addphotos) {
   /* add addthis script to pages, ie, not teasers */
   if (node_is_page($node) !== FALSE) {
     drupal_add_js('//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56e774978692f861', 'external');
+    $variables['addphotos'] = theme_get_setting('addthis_photos');
   }
-
-  $variables['addphotos'] = theme_get_setting('addthis_photos');
 
 }
 
