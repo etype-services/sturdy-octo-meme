@@ -1299,7 +1299,7 @@ textarea, select, input[type="date"], input[type="datetime"], input[type="dateti
     margin-left: 168px;
 }
 
-.node-article .submitted, node-photos .submitted {
+.node-article .submitted, .node-photos .submitted {
     margin-left: 0;
 }
 
