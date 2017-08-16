@@ -29,7 +29,9 @@
 
       <?php print render($title_suffix); ?>
 
-      <?php if ($page) { ?>
+      <?php
+      $check = theme_get_setting('addthis_photos');
+      if (($page) && ($check)) { ?>
           <!-- Go to www.addthis.com/dashboard to customize your tools -->
           <div class="addthis_sharing_toolbox"></div>
       <?php } ?>

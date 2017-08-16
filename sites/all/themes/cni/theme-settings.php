@@ -138,6 +138,12 @@ function cni_form_system_theme_settings_alter(&$form, $form_state) {
     '#default_value' => theme_get_setting('logo_width'),
   );
 
+  $form['advanced_settings']['misc_settings']['addthis_photos'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Add Share Buttons to Photos'),
+    '#default_value' => theme_get_setting('addthis_photos'),
+  );
+
   // Grid Settings
   $form['advanced_settings']['grid_settings'] = array(
     '#type' => 'fieldset',
