@@ -57,7 +57,7 @@ function cni_preprocess_page(&$variables) {
   }
 }
 
-function cni_preprocess_node(&$addphotos) {
+function cni_preprocess_node(&$variables) {
 
   $node = $variables['node'];
   if (!empty($node->classes_array)) {
