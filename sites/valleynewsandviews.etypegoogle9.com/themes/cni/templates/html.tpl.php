@@ -3,7 +3,7 @@
 
 <head>
   <?php print $head; ?>
-  <title>The Riley Countian</title>
+  <title>Valley News and Views</title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
