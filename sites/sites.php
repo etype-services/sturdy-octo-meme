@@ -175,3 +175,7 @@ $sites['www.spitzerpublishing.com'] = 'beckhamcountyrecord.etypegoogle9.com';
 $sites['valleynewsandviews.etypegoogle9.com'] = 'valleynewsandviews.etypegoogle9.com';
 $sites['valleynewsandviews.com'] = 'valleynewsandviews.etypegoogle9.com';
 $sites['www.valleynewsandviews.com'] = 'valleynewsandviews.etypegoogle9.com';
+
+$sites['yourxgroup.etypegoogle9.com'] = 'yourxgroup.etypegoogle9.com';
+$sites['yourxgroup.com'] = 'yourxgroup.etypegoogle9.com';
+$sites['www.yourxgroup.com'] = 'yourxgroup.etypegoogle9.com';
