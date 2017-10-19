@@ -179,3 +179,7 @@ $sites['www.valleynewsandviews.com'] = 'valleynewsandviews.etypegoogle9.com';
 $sites['yourxgroup.etypegoogle9.com'] = 'yourxgroup.etypegoogle9.com';
 $sites['yourxgroup.com'] = 'yourxgroup.etypegoogle9.com';
 $sites['www.yourxgroup.com'] = 'yourxgroup.etypegoogle9.com';
+
+$sites['dseshopper.etypegoogle9.com'] = 'dseshopper.etypegoogle9.com';
+$sites['dseshopper.com'] = 'dseshopper.etypegoogle9.com';
+$sites['www.dseshopper.com'] = 'dseshopper.etypegoogle9.com';
