@@ -1,0 +1,21 @@
+/* change body back ground from white to light blue */
+
+body {
+    background: #6699FF;
+}
+
+.page-top {
+margin-top: -10px;
+}
+
+.page-inner {
+margin-top: -10px;
+}
+
+#page {
+margin-top: 0;
+}
+
+.block-simpleads {
+margin-top: 25px;
+}
