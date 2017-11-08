@@ -187,6 +187,12 @@ $sites['www.dseshopper.com'] = 'dseshopper.etypegoogle9.com';
 $sites['oologahonline.etypegoogle9.com'] = 'oologahonline.etypegoogle9.com';
 $sites['oologahonline.com'] = 'oologahonline.etypegoogle9.com';
 $sites['www.oologahonline.com'] = 'oologahonline.etypegoogle9.com';
+$sites['oologah.net'] = 'oologahonline.etypegoogle9.com';
+$sites['www.oologah.net'] = 'oologahonline.etypegoogle9.com';
+$sites['oologahlakeleader.com'] = 'oologahonline.etypegoogle9.com';
+$sites['www.oologahlakeleader.com'] = 'oologahonline.etypegoogle9.com';
+$sites['oologahnews.com'] = 'oologahonline.etypegoogle9.com';
+$sites['www.oologahnews.com '] = 'oologahonline.etypegoogle9.com';
 
 $sites['wilmingtonmatters.etypegoogle9.com'] = 'wilmingtonmatters.etypegoogle9.com';
 $sites['wilmingtonmatters.com'] = 'wilmingtonmatters.etypegoogle9.com';
