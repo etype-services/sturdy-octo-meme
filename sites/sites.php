@@ -197,3 +197,7 @@ $sites['www.oologahnews.com '] = 'oologahonline.etypegoogle9.com';
 $sites['wilmingtonmatters.etypegoogle9.com'] = 'wilmingtonmatters.etypegoogle9.com';
 $sites['wilmingtonmatters.com'] = 'wilmingtonmatters.etypegoogle9.com';
 $sites['www.wilmingtonmatters.com'] = 'wilmingtonmatters.etypegoogle9.com';
+
+$sites['rustonleader.etypegoogle9.com'] = 'rustonleader.etypegoogle9.com';
+$sites['rustonleader.com'] = 'rustonleader.etypegoogle9.com';
+$sites['www.rustonleader.com'] = 'rustonleader.etypegoogle9.com';
