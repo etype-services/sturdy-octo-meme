@@ -201,3 +201,7 @@ $sites['www.wilmingtonmatters.com'] = 'wilmingtonmatters.etypegoogle9.com';
 $sites['rustonleader.etypegoogle9.com'] = 'rustonleader.etypegoogle9.com';
 $sites['rustonleader.com'] = 'rustonleader.etypegoogle9.com';
 $sites['www.rustonleader.com'] = 'rustonleader.etypegoogle9.com';
+
+$sites['iowapoliticalalert.etypegoogle9.com'] = 'iowapoliticalalert.etypegoogle9.com';
+$sites['iowapoliticalalert.com'] = 'iowapoliticalalert.etypegoogle9.com';
+$sites['www.iowapoliticalalert.com'] = 'iowapoliticalalert.etypegoogle9.com';
