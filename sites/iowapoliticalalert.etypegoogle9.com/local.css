@@ -17,7 +17,7 @@ body {
 	padding: 0;
 }
 
-h1.title, .preface-wrapper .block-inner .views-field-title h3, .node-teaser h2.title {
+h1.title, .preface-wrapper .block-inner .views-field-title h3, .node-teaser h2.title a {
     font-weight: bold;
     text-decoration: underline;
 }
