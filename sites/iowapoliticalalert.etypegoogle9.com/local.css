@@ -1,5 +1,6 @@
 body {
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 14pt;
 }
 
 #main-content .block-inner, #preface .block-inner, h1#page-title {
