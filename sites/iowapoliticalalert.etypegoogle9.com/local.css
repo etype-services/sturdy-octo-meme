@@ -1,3 +1,11 @@
 #main-content .block-inner, #preface .block-inner, h1#page-title {
 	border: 0;
 }
+
+.preface-wrapper .block .content {
+	background: none;
+}
+
+.node-teaser .field-image .field-name-field-image .field-items .field-item:first-child img, .node-teaser .field-name-field-mugshot .field-items .field-item:first-child img {
+	background: none;
+}
