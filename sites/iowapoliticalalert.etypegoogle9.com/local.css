@@ -1,3 +1,7 @@
+body {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
 #main-content .block-inner, #preface .block-inner, h1#page-title {
 	border: 0;
 	padding: 0;
