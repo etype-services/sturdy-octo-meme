@@ -82,10 +82,6 @@ $sites['gspublishing.etypegoogle9.com'] = 'gspublishing.etypegoogle9.com';
 $sites['gspublishing.net'] = 'gspublishing.etypegoogle9.com';
 $sites['www.gspublishing.net'] = 'gspublishing.etypegoogle9.com';
 
-$sites['homerindex.etypegoogle9.com'] = 'homerindex.etypegoogle9.com';
-$sites['homerindex.com'] = 'homerindex.etypegoogle9.com';
-$sites['www.homerindex.com'] = 'homerindex.etypegoogle9.com';
-
 $sites['sulphurtimes.etypegoogle9.com'] = 'sulphurtimes.etypegoogle9.com';
 $sites['sulphurtimes.com'] = 'sulphurtimes.etypegoogle9.com';
 $sites['www.sulphurtimes.com'] = 'sulphurtimes.etypegoogle9.com';
