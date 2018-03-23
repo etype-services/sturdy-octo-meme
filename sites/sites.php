@@ -205,3 +205,7 @@ $sites['www.iowapoliticalalert.com'] = 'iowapoliticalalert.etypegoogle9.com';
 $sites['okjailbirds.etypegoogle9.com'] = 'okjailbirds.etypegoogle9.com';
 $sites['jailbirds.rocks'] = 'okjailbirds.etypegoogle9.com';
 $sites['www.jailbirds.rocks'] = 'okjailbirds.etypegoogle9.com';
+
+$sites['clipperpubco.etypegoogle9.com'] = 'clipperpubco.etypegoogle9.com';
+$sites['clipperpubco.com'] = 'clipperpubco.etypegoogle9.com';
+$sites['www.clipperpubco.com'] = 'clipperpubco.etypegoogle9.com';
