@@ -1,3 +1,6 @@
 [submodule "sites/all/themes/cnitheme"]
 	path = sites/all/themes/cni
 	url = git@github.com:etype-services/cnitheme.git
+[submodule "sites/all/modules/etype_jailbirds"]
+	path = sites/all/modules/etype_jailbirds
+	url = git@github.com:etype-services/etype_jailbirds.git
