@@ -2,6 +2,12 @@ body {
     background: #743D91;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: "Anton", sans-serif; }
+
+body, #main-menu ul.menu, #user-menu {
+    font-family: "Roboto", sans-serif; }
+
 #menu-8315-1 {
     background: #F15D22;
 }
