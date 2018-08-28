@@ -1,0 +1,3 @@
+[submodule "all/modules/premium_content"]
+	path = all/modules/premium_content
+	url = git@github.com:etype-services/premium_content.git

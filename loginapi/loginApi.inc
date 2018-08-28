@@ -143,7 +143,7 @@ class apps{
 
                     $d=$response->GetDetailsByUserNameResult->UserDetails->ExpiryDate;
                     $expdate=date("jS F Y", strtotime($d));
-                    $msg="Your subscrtiption will expire on " .$expdate;
+                    $msg="Your subscription will expire on " .$expdate;
 
 
                     // setcookie("etypes[userdetail]",$encrypted_txt, time()+3600*24);
