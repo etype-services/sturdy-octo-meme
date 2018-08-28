@@ -45,4 +45,4 @@ body, #main-menu ul.menu, #user-menu {
     font-size: 1.4em; }
 
 .view-slideshow .views-field-field-image {
-    margin-bottom: 1em; }
+    margin: 1em auto; }
