@@ -16,38 +16,16 @@ body {
     margin: 0 0 2em 0;
     font: 0.8em/1.4 "Roboto", sans-serif; }
 
+.node .field-name-field-image img, .flexslider .slides img {
+    height: 59vh;
+    width: auto;
+}
+
 .view-slideshow .views-field-title {
-    margin-top: 0.5em; }
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: center;
+}
 .view-slideshow .views-field-title h3 {
     text-transform: capitalize;
     font-size: 1.4em; }
-
-/* override module defaults */
-.views-slideshow-pager-fields > div {
-    padding-left: 0; }
-
-/* RESPONSIVE */
-@media only screen and (max-width: 958px) and (min-width: 768px) {
-    .view-slideshow .views_slideshow_main .views-field-body {
-        font-size: inherit;
-        width: 470px; }
-    .view-slideshow .views_slideshow_main .views-field-title {
-        width: 470px; } }
-@media only screen and (max-width: 767px) and (min-width: 480px) {
-    .view-slideshow .views_slideshow_main .views-field-body {
-        width: 398px;
-        display: block; }
-    .view-slideshow .views_slideshow_main .views-field-title {
-        width: 398px; } }
-@media only screen and (max-width: 479px) and (min-width: 421px) {
-    .view-slideshow .views_slideshow_main .views-field-body {
-        width: 278px;
-        display: block; }
-    .view-slideshow .views_slideshow_main .views-field-title {
-        width: 278px; } }
-@media only screen and (max-width: 420px) {
-    .view-slideshow .views_slideshow_main .views-field-body {
-        display: block;
-        width: 278px; }
-    .view-slideshow .views_slideshow_main .views-field-title {
-        width: 278px; } }
