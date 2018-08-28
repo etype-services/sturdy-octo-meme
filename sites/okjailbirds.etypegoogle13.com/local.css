@@ -32,3 +32,6 @@ body {
 .view-slideshow .views-field-title h3 {
     text-transform: capitalize;
     font-size: 1.4em; }
+
+.view-slideshow .views-field-image {
+    margin-bottom: 1em; }
