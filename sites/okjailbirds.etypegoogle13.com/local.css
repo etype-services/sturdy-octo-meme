@@ -6,6 +6,11 @@ body {
     background: #F15D22;
 }
 
+#menu-7472-1.active-trail {
+    background: #000000;
+    color: #ffffff;
+}
+
 /* SLIDESHOW
 --------------------------------------------------------------------------*/
 /* override #main-content .block-inner */
