@@ -31,7 +31,7 @@ body, #main-menu ul.menu, #user-menu {
   padding: 0; }
   .preface-wrapper .views-row views-field-field-image img {
     float: none;
-    margin: 0; }
+    margin: auto; }
 
 /* SLIDESHOW
 --------------------------------------------------------------------------*/
