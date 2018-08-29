@@ -2,6 +2,7 @@ name = Ok Jailbirds
 description = Custom sub-theme of the CNI Theme
 core = 7.x
 base theme = cni
+stylesheets[all][] = css/okjailbirds.css
 
 regions[header] = Header
 regions[user_menu] = User Menu
@@ -22,4 +23,3 @@ regions[postscript_1] = Postscript First
 regions[postscript_2] = Postscript Second
 regions[postscript_3] = Postscript Third
 regions[postscript_banner] = Postscript Banner
-regions[footer] = Footer
