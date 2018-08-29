@@ -17,6 +17,16 @@ body, #main-menu ul.menu, #user-menu {
     color: #ffffff !important;
 }
 
+.container_12 {
+    padding: 0;
+}
+
+@media only screen and (min-width: 959px) {
+    .postscript-wrapper {
+        margin-right: 0;
+    }
+}
+
 /* SLIDESHOW
 --------------------------------------------------------------------------*/
 /* override #main-content .block-inner */
