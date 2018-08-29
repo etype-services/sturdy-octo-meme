@@ -25,11 +25,11 @@ body, #main-menu ul.menu, #user-menu {
   .views-fluid-grid-list .views-fluid-grid-item {
     width: auto; }
     .views-fluid-grid-list .views-fluid-grid-item .views-field-title h3 {
-      font-size: 2vw; }
+      font-size: 12px; }
 
 .preface-wrapper .views-row {
   padding: 0; }
-  .preface-wrapper .views-row views-field-field-image img {
+  .preface-wrapper .views-row .views-field-field-image img {
     float: none;
     margin: auto; }
 

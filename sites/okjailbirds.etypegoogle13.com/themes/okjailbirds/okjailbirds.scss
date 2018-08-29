@@ -33,7 +33,7 @@ body, #main-menu ul.menu, #user-menu {
     width: auto;
     .views-field-title {
       h3 {
-        font-size: 2vw;
+        font-size: 12px;
       }
     }
   }
@@ -42,7 +42,7 @@ body, #main-menu ul.menu, #user-menu {
 .preface-wrapper {
   .views-row {
     padding: 0;
-    views-field-field-image {
+    .views-field-field-image {
       img {
         float: none;
         margin: auto;
