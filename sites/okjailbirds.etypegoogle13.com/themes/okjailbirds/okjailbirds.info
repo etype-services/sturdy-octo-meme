@@ -2,7 +2,7 @@ name = Ok Jailbirds
 description = Custom sub-theme of the CNI Theme
 core = 7.x
 base theme = cni
-stylesheets[all][] = css/okjailbirds.css
+stylesheets[all][] = okjailbirds.css
 
 regions[header] = Header
 regions[user_menu] = User Menu
