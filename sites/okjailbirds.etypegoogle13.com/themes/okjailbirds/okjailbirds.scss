@@ -100,3 +100,15 @@ body, #main-menu ul.menu, #user-menu {
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 420px) {
+  .views-fluid-grid-list {
+    .views-fluid-grid-item {
+      .views-field-title {
+        h3 {
+          font-size: 7px;
+        }
+      }
+    }
+  }
+}
