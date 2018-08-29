@@ -52,7 +52,7 @@ body, #main-menu ul.menu, #user-menu {
   width: auto;
   box-shadow: 5px 5px #f3f1f1; }
 
-.view-slideshow views-field-title {
+.view-slideshow .views-field-title {
   margin-top: 0.5em;
   display: flex;
   justify-content: center; }
