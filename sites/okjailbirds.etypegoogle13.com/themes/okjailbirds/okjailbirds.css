@@ -1,58 +1,59 @@
 body {
-    background: #743D91;
-}
+  background: #743D91; }
 
 h1, h2, h3, h4, h5 {
-    font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 body, #main-menu ul.menu, #user-menu {
-    font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 #menu-8315-1 {
-    background: #F15D22;
-}
+  background: #F15D22; }
 
 #menu-7472-1 a.active {
-    background: #000000 !important;
-    color: #ffffff !important;
-}
+  background: #000000 !important;
+  color: #ffffff !important; }
 
 .container_12 {
-    padding: 0;
-}
+  padding: 0; }
 
 @media only screen and (min-width: 959px) {
-    .postscript-wrapper {
-        margin-right: 0;
-    }
-}
+  .postscript-wrapper {
+    margin-right: 0; } }
+.views-fluid-grid-list {
+  display: flex; }
+  .views-fluid-grid-list .views-fluid-grid-item {
+    width: auto; }
+
+.preface-wrapper .views-row {
+  padding: 0; }
 
 /* SLIDESHOW
 --------------------------------------------------------------------------*/
 /* override #main-content .block-inner */
 #main-content #block-views-slideshow-block .block-inner {
-    padding: 0 0 20px 0; }
+  padding: 0 0 20px 0; }
 
 .slideshow-wrapper {
-    padding-top: 1em; }
+  padding-top: 1em; }
 
 .flexslider {
-    margin: 0 0 2em 0;
-    font: 0.8em/1.4 "Roboto", sans-serif; }
+  margin: 0 0 2em 0;
+  font: 0.8em/1.4 "Roboto", sans-serif; }
 
 .node .field-name-field-image img, .flexslider .slides img {
-    height: 59vh;
-    width: auto;
-    box-shadow: 5px 5px #f3f1f1; }
+  height: 59vh;
+  width: auto;
+  box-shadow: 5px 5px #f3f1f1; }
 
-.view-slideshow .views-field-title {
-    margin-top: 0.5em;
-    display: flex;
-    justify-content: center; }
-
+.view-slideshow views-field-title {
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center; }
 .view-slideshow .views-field-title h3 {
-    text-transform: capitalize;
-    font-size: 1.4em; }
-
+  text-transform: capitalize;
+  font-size: 1.4em; }
 .view-slideshow .views-field-field-image {
-    margin: 1em auto; }
+  margin: 1em auto; }
+
+/*# sourceMappingURL=okjailbirds.css.map */
