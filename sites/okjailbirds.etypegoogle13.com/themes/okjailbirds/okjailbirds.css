@@ -24,9 +24,14 @@ body, #main-menu ul.menu, #user-menu {
   display: flex; }
   .views-fluid-grid-list .views-fluid-grid-item {
     width: auto; }
+    .views-fluid-grid-list .views-fluid-grid-item .views-field-title h3 {
+      font-size: 2vw; }
 
 .preface-wrapper .views-row {
   padding: 0; }
+  .preface-wrapper .views-row views-field-field-image img {
+    float: none;
+    margin: 0; }
 
 /* SLIDESHOW
 --------------------------------------------------------------------------*/

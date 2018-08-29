@@ -31,12 +31,23 @@ body, #main-menu ul.menu, #user-menu {
   display: flex;
   .views-fluid-grid-item {
     width: auto;
+    .views-field-title {
+      h3 {
+        font-size: 2vw;
+      }
+    }
   }
 }
 
 .preface-wrapper {
   .views-row {
     padding: 0;
+    views-field-field-image {
+      img {
+        float: none;
+        margin: 0;
+      }
+    }
   }
 }
 
