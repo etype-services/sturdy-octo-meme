@@ -68,7 +68,7 @@ body, #main-menu ul.menu, #user-menu {
   font: 0.8em/1.4 "Roboto", sans-serif;
 }
 
-.node .field-name-field-image img, .flexslider .slides img {
+.flexslider .slides img {
   height: 59vh;
   width: auto;
   box-shadow: 5px 5px #f3f1f1;
@@ -91,4 +91,11 @@ body, #main-menu ul.menu, #user-menu {
     margin: 1em auto;
   }
 
+}
+
+/* taxonomy pages */
+.view-taxonomy-term {
+  .views-view-grid {
+    width: 100%;
+  }
 }
